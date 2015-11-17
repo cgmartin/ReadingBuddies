@@ -1,8 +1,8 @@
 # Reading Buddies
 
-[![Build Status](https://travis-ci.org/cgmartin/reading-buddies.svg?branch=master)](https://travis-ci.org/cgmartin/angular-spa-browserify-example)
-[![Dependency Status](https://david-dm.org/cgmartin/reading-buddies.svg)](https://david-dm.org/cgmartin/reading-buddies)
-[![devDependency Status](https://david-dm.org/cgmartin/reading-buddies/dev-status.svg)](https://david-dm.org/cgmartin/reading-buddies#info=devDependencies)
+[![Build Status](https://travis-ci.org/cgmartin/ReadingBuddies.svg?branch=master)](https://travis-ci.org/cgmartin/ReadingBuddies)
+[![Dependency Status](https://david-dm.org/cgmartin/ReadingBuddies.svg)](https://david-dm.org/cgmartin/ReadingBuddies)
+[![devDependency Status](https://david-dm.org/cgmartin/ReadingBuddies/dev-status.svg)](https://david-dm.org/cgmartin/ReadingBuddies#info=devDependencies)
 
 **Angular/Node.js/Gulp/Redis Example Demonstration**
 
