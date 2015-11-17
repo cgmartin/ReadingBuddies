@@ -1,0 +1,31 @@
+<div id="{{ readerModel.id }}" class="latest-book-reviews">
+    <div class="review-list" ng-if="reader && reviewData">
+        <h3><a ng-href="{{ reader.website }}">{{ reader.name }}</a></h3>
+        <div class="reviews">
+            <div class="book" ng-repeat="review in reviewData.review track by $index">
+                <span ng-class="[
+                    {'rating': true},
+                    {'label': true},
+                    {'label-danger':  review.rating < 3},
+                    {'label-warning': review.rating == 3},
+                    {'label-success': review.rating > 3}
+                ]">
+                    {{ review.rating }}
+                </span>
+                <div class="cover">
+                    <a ng-href="{{ review.link }}">
+                        <img ng-src="{{ review.book.image_url }}" alt="Book cover image: {{ review.book.title }}" />
+                    </a>
+                </div>
+                <div class="title">{{ review.book.title }}</div>
+            </div>
+        </div>
+        <div class="more-reviews">
+            <a ng-href="https://www.goodreads.com/review/list/{{ reader.id }}?shelf=read">
+                See more on Goodreads...
+            </a>
+        </div>
+    </div>
+    <div ng-if="!reader || !reviewData" class="loading">Loading...</div>
+</div>
+

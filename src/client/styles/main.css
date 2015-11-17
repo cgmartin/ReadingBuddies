@@ -1,0 +1,71 @@
+body { padding-top: 70px; }
+
+/**
+ * Override navbar for the configuration cog button to always show
+ */
+.container > .navbar-header {
+    float: left;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+/**
+ * App config form
+ */
+#app-config-form .input-group {
+    margin-bottom: 4px;
+}
+
+/**
+ * Book reviews
+ */
+.reader-reviews-container hr {
+    margin: 10px 0;
+}
+
+.latest-book-reviews {
+    position: relative;
+}
+.latest-book-reviews h3 {
+    margin: 5px 0 20px;
+}
+.latest-book-reviews .more-reviews {
+    font-size: 0.90em;
+    font-style: italic;
+    margin: 2px 0;
+    text-align: right;
+}
+.latest-book-reviews .more-reviews a {
+    color: #8c9199;
+}
+.latest-book-reviews .loading {
+    color: #8c9199;
+    font-style: italic;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.book {
+    margin: 0 auto 10px;
+    width: 120px;
+    text-align: center;
+    position: relative;
+}
+.book .rating {
+    position: absolute;
+    top: -3px; right: -3px;
+    font-size: 0.9em;
+}
+.book .cover img {
+    border: 1px solid #cccccc;
+}
+.book .title {
+    font-size: 1em;
+}
+

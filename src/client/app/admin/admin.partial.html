@@ -1,0 +1,28 @@
+
+<div class="container">
+    <h2>Configuration</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <form id="app-config-form">
+                <div class="form-group">
+                    <label for="readerInput0">Goodreads User ID(s)</label>
+                    <div class="input-group" ng-repeat="reader in vm.$storage.readers track by $index">
+                        <input type="text" class="form-control" id="readerInput{{ $index }}"
+                               ng-model="reader.id" placeholder="12345678">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" ng-click="vm.removeReader($index)">
+                                <i class="fa fa-trash-o"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <div class="input-group">
+                        <button type="button" class="btn btn-default btn-sm" ng-click="vm.addReader()">
+                            <i class="fa fa-plus"></i> Add new
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

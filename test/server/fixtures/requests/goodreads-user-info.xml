@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+    <Request>
+        <authentication>true</authentication>
+        <key><![CDATA[AH6BdK6bui9AsHBuU6qnQ]]></key>
+        <method><![CDATA[user_show]]></method>
+    </Request>
+    <user>
+        <id>666892</id>
+        <name>Felicia</name>
+        <user_name>feliciaday</user_name>
+        <link><![CDATA[https://www.goodreads.com/user/show/666892-felicia]]></link>
+        <author>
+            <id type="integer">3440476</id>
+            <name>Felicia Day</name>
+        </author>
+
+        <image_url><![CDATA[https://d.gr-assets.com/users/1437521850p3/666892.jpg]]></image_url>
+        <small_image_url><![CDATA[https://d.gr-assets.com/users/1437521850p2/666892.jpg]]></small_image_url>
+        <about>
+            <![CDATA[Actress, New Media Geek, Gamer, Reader. Voracious consumer of Fantasy and Sci-Fi, especially with a romance twist. Has a book club on Goodreads called Vaginal Fantasy to celebrate the smuttier side of genre literature. Join in if you dare!<br><br>Creator of The Guild and producer of the web series network Geek and Sundry. ]]></about>
+        <age></age>
+        <gender>female</gender>
+        <location>Santa Monica, CA</location>
+        <website>http://www.feliciaday.com</website>
+        <joined>12/2007</joined>
+        <last_active>11/2015</last_active>
+        <interests><![CDATA[Fantasy, Computer Games, Web Video, Science Fiction TV]]></interests>
+        <favorite_books>
+            <![CDATA[Urban Fantasy, Mystery (with a touch of romance), Epic Fantasy, Space Operas]]></favorite_books>
+        <favorite_authors>
+            <author>
+                <id type="integer">15292</id>
+                <name>Rachel Caine</name>
+            </author>
+            <author>
+                <id type="integer">336058</id>
+                <name>Lisa Shearin</name>
+            </author>
+            <author>
+                <id type="integer">131208</id>
+                <name>Lilith Saintcrow</name>
+            </author>
+            <author>
+                <id type="integer">28544</id>
+                <name>Sharon Shinn</name>
+            </author>
+            <author>
+                <id type="integer">445303</id>
+                <name>Maria V. Snyder</name>
+            </author>
+            <author>
+                <id type="integer">40563</id>
+                <name>Patricia Briggs</name>
+            </author>
+        </favorite_authors>
+        <updates_rss_url>
+            <![CDATA[https://www.goodreads.com/user/updates_rss/666892?key=fAlR6rhVA79SGSnf_cBLSQiCXuSBdgofajwzYNJOT0RM6ydR]]></updates_rss_url>
+        <reviews_rss_url>
+            <![CDATA[https://www.goodreads.com/review/list_rss/666892?key=fAlR6rhVA79SGSnf_cBLSQiCXuSBdgofajwzYNJOT0RM6ydR&shelf=%23ALL%23]]></reviews_rss_url>
+        <friends_count type="integer">4552</friends_count>
+        <groups_count>7</groups_count>
+        <reviews_count type="integer">1033</reviews_count>
+        <user_shelves type="array">
+            <user_shelf>
+                <id type="integer">5622979</id>
+                <name>read</name>
+                <book_count type="integer">898</book_count>
+                <exclusive_flag type="boolean">true</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">true</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1348312</id>
+                <name>currently-reading</name>
+                <book_count type="integer">1</book_count>
+                <exclusive_flag type="boolean">true</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1348311</id>
+                <name>to-read</name>
+                <book_count type="integer">134</book_count>
+                <exclusive_flag type="boolean">true</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order>a</order>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">148456596</id>
+                <name>biography</name>
+                <book_count type="integer">4</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821553</id>
+                <name>classics</name>
+                <book_count type="integer">4</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">4329931</id>
+                <name>cookbooks</name>
+                <book_count type="integer">2</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821223</id>
+                <name>epic-fantasy</name>
+                <book_count type="integer">130</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821556</id>
+                <name>fantasy</name>
+                <book_count type="integer">179</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821243</id>
+                <name>faves</name>
+                <book_count type="integer">49</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1924192</id>
+                <name>fiction</name>
+                <book_count type="integer">8</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">4375260</id>
+                <name>graphic-novels</name>
+                <book_count type="integer">53</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821225</id>
+                <name>great-stand-alone-fantasy</name>
+                <book_count type="integer">18</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">3874145</id>
+                <name>highland-hunkfantasy</name>
+                <book_count type="integer">5</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">5111237</id>
+                <name>historical-romance</name>
+                <book_count type="integer">32</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">24182597</id>
+                <name>history</name>
+                <book_count type="integer">5</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">9375773</id>
+                <name>horror</name>
+                <book_count type="integer">5</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">50551271</id>
+                <name>humor</name>
+                <book_count type="integer">1</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">4867565</id>
+                <name>man-fantasy</name>
+                <book_count type="integer">7</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1924237</id>
+                <name>mystery</name>
+                <book_count type="integer">71</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821479</id>
+                <name>non-fiction</name>
+                <book_count type="integer">26</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">4937654</id>
+                <name>romance</name>
+                <book_count type="integer">27</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821244</id>
+                <name>sci-fi</name>
+                <book_count type="integer">70</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">9097297</id>
+                <name>science</name>
+                <book_count type="integer">2</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">9375586</id>
+                <name>short-stories</name>
+                <book_count type="integer">6</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">2316130</id>
+                <name>steampunk</name>
+                <book_count type="integer">20</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1348314</id>
+                <name>urban-paranormal</name>
+                <book_count type="integer">212</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">1821229</id>
+                <name>vaginal-fantasy</name>
+                <book_count type="integer">94</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">6575167</id>
+                <name>vaginal-mystery</name>
+                <book_count type="integer">21</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">4852626</id>
+                <name>vaginal-sf</name>
+                <book_count type="integer">23</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">3810382</id>
+                <name>vaginal-urban-fantasy</name>
+                <book_count type="integer">195</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+            <user_shelf>
+                <id type="integer">13198698</id>
+                <name>young-adult</name>
+                <book_count type="integer">11</book_count>
+                <exclusive_flag type="boolean">false</exclusive_flag>
+                <description nil="true"/>
+                <sort nil="true"/>
+                <order nil="true"/>
+                <per_page type="integer" nil="true"/>
+                <display_fields></display_fields>
+                <featured type="boolean">false</featured>
+                <recommend_for type="boolean">true</recommend_for>
+                <sticky type="boolean" nil="true"/>
+            </user_shelf>
+        </user_shelves>
+        <updates type="array">
+            <update type="readstatus">
+                <action_text>
+                    <![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/1435641421">The Fifth Season (The Broken Earth, #1)</a>]]></action_text>
+                <link>https://www.goodreads.com/read_statuses/1063622005</link>
+                <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Fri, 06 Nov 2015 14:18:41 -0800</updated_at>
+                <object>
+                    <read_status>
+                        <id type="integer">1063622005</id>
+                        <review_id type="integer">1435641421</review_id>
+                        <user_id type="integer">666892</user_id>
+                        <old_status nil="true"/>
+                        <status>to-read</status>
+                        <updated_at type="datetime">2015-11-06T22:18:41+00:00</updated_at>
+                        <review>
+                            <id type="integer">1435641421</id>
+                            <user_id type="integer">666892</user_id>
+                            <book_id type="integer">19161852</book_id>
+                            <rating type="integer">0</rating>
+                            <read_status>to-read</read_status>
+                            <sell_flag type="boolean">false</sell_flag>
+                            <review nil="true"/>
+                            <recommendation nil="true"/>
+                            <read_at type="datetime" nil="true"/>
+                            <updated_at type="datetime">2015-11-06T22:18:41+00:00</updated_at>
+                            <created_at type="datetime">2015-11-06T22:18:41+00:00</created_at>
+                            <comments_count type="integer">0</comments_count>
+                            <weight type="integer">0</weight>
+                            <ratings_sum type="integer">0</ratings_sum>
+                            <ratings_count type="integer">0</ratings_count>
+                            <notes nil="true"/>
+                            <spoiler_flag type="boolean">false</spoiler_flag>
+                            <recommender_user_id1 type="integer">0</recommender_user_id1>
+                            <recommender_user_name1 nil="true"/>
+                            <work_id type="integer">26115977</work_id>
+                            <read_count nil="true"/>
+                            <last_comment_at type="datetime" nil="true"/>
+                            <started_at type="datetime" nil="true"/>
+                            <hidden_flag type="boolean">false</hidden_flag>
+                            <language_code type="integer" nil="true"/>
+                            <last_revision_at type="datetime">2015-11-06T22:18:41+00:00</last_revision_at>
+                            <non_friends_rating_count type="integer">0</non_friends_rating_count>
+                            <book>
+                                <id type="integer">19161852</id>
+                                <work_id type="integer">26115977</work_id>
+                                <isbn>0316229296</isbn>
+                                <isbn13>9780316229296</isbn13>
+                                <title>The Fifth Season (The Broken Earth, #1)</title>
+                                <sort_by_title>fifth season (the broken earth, #1), the</sort_by_title>
+                                <author_id type="integer">2917917</author_id>
+                                <author_role nil="true"/>
+                                <asin nil="true"/>
+                                <description nil="true"/>
+                                <format>Paperback</format>
+                                <publication_year type="integer">2015</publication_year>
+                                <publication_month type="integer">8</publication_month>
+                                <publication_day type="integer">4</publication_day>
+                                <num_pages type="integer">449</num_pages>
+                                <publisher>Orbit</publisher>
+                                <language_code>eng</language_code>
+                                <edition_information nil="true"/>
+                                <url nil="true"/>
+                                <source_url nil="true"/>
+                                <image_uploaded_at type="datetime">2013-12-11T23:15:01+00:00</image_uploaded_at>
+                                <s3_image_at type="datetime">2015-06-16T05:02:21+00:00</s3_image_at>
+                                <reviews_count type="integer">16770</reviews_count>
+                                <ratings_sum type="integer">6802</ratings_sum>
+                                <ratings_count type="integer">1554</ratings_count>
+                                <text_reviews_count type="integer">378</text_reviews_count>
+                                <book_authors_count type="integer">0</book_authors_count>
+                                <updated_at type="datetime">2015-08-06T19:31:45+00:00</updated_at>
+                                <created_at type="datetime">2013-12-03T19:12:48+00:00</created_at>
+                                <author_id_updater_user_id type="integer">258069</author_id_updater_user_id>
+                                <author_role_updater_user_id type="integer" nil="true"/>
+                                <description_updater_user_id type="integer">20947781</description_updater_user_id>
+                                <edition_information_updater_user_id type="integer" nil="true"/>
+                                <format_updater_user_id type="integer">-46</format_updater_user_id>
+                                <image_updater_user_id type="integer">258069</image_updater_user_id>
+                                <isbn_updater_user_id type="integer">-46</isbn_updater_user_id>
+                                <isbn13_updater_user_id type="integer">-46</isbn13_updater_user_id>
+                                <language_updater_user_id type="integer">4068341</language_updater_user_id>
+                                <num_pages_updater_user_id type="integer">3685044</num_pages_updater_user_id>
+                                <publication_date_updater_user_id type="integer">2075644
+                                </publication_date_updater_user_id>
+                                <publisher_updater_user_id type="integer">-46</publisher_updater_user_id>
+                                <title_updater_user_id type="integer">4379514</title_updater_user_id>
+                                <url_updater_user_id type="integer" nil="true"/>
+                                <title_language_code nil="true"/>
+                                <publisher_language_code nil="true"/>
+                                <description_language_code nil="true"/>
+                                <asin_updater_user_id type="integer" nil="true"/>
+                                <author>
+                                    <id type="integer">2917917</id>
+                                    <name>N.K. Jemisin</name>
+                                    <updated_at type="datetime">2015-11-13T07:35:47+00:00</updated_at>
+                                    <created_at type="datetime">2009-05-01T00:01:20+00:00</created_at>
+                                    <searched_for_at type="datetime">2009-05-19T19:44:46+00:00</searched_for_at>
+                                    <image_uploaded_at type="datetime">2015-07-30T00:25:30+00:00</image_uploaded_at>
+                                    <user_id type="integer">2366515</user_id>
+                                    <gender>F</gender>
+                                    <country_code>US</country_code>
+                                    <born_at type="date">1972-09-19</born_at>
+                                    <died_at type="datetime" nil="true"/>
+                                    <about>N. K. Jemisin lives and works in New York City.</about>
+                                    <uploader_user_id type="integer">2366515</uploader_user_id>
+                                    <image_copyright>Photo Credit: Laura Hanifin. Image provided by publisher.
+                                    </image_copyright>
+                                    <influences>[a:Tanith Lee|8694], [a:Ursula K. Le Guin|874602]</influences>
+                                    <url>http://nkjemisin.com</url>
+                                    <genre1>Science Fiction &amp; Fantasy</genre1>
+                                    <genre2></genre2>
+                                    <genre3></genre3>
+                                    <books_count type="integer">158</books_count>
+                                    <reviews_count type="integer">161625</reviews_count>
+                                    <ratings_sum type="integer">205291</ratings_sum>
+                                    <works_count type="integer">48</works_count>
+                                    <hometown></hometown>
+                                    <rating_dist>5:826|4:1180|3:630|2:151|1:40|total:2827</rating_dist>
+                                    <s3_image_at type="datetime" nil="true"/>
+                                    <ratings_count type="integer">52990</ratings_count>
+                                    <text_reviews_count type="integer">6462</text_reviews_count>
+                                    <author_program_at type="datetime">2009-05-30T23:45:40+00:00</author_program_at>
+                                    <postal_code nil="true"/>
+                                    <fanships_count type="integer">1856</fanships_count>
+                                    <best_book_id type="integer">6437061</best_book_id>
+                                    <name_language_code nil="true"/>
+                                    <sort_by_name>jemisin, n.k.</sort_by_name>
+                                    <shelf_display_name>Jemisin, N.K.</shelf_display_name>
+                                    <gender_custom nil="true"/>
+                                    <gender_pronoun nil="true"/>
+                                </author>
+                            </book>
+                        </review>
+                    </read_status>
+
+                </object>
+            </update>
+            <update type="comment">
+                <action_text>
+                    <![CDATA[<a href="https://www.goodreads.com/user/show/666892-felicia">Felicia</a> commented on the topic <i>Nov Book Suggestion</i> in Vaginal Fantasy Book Club]]></action_text>
+                <link>https://www.goodreads.com/topic/show/17594578-nov-book-suggestion</link>
+                <image_url>https://d.gr-assets.com/groups/1401146798p2/62938.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Tue, 27 Oct 2015 21:18:01 -0700</updated_at>
+                <body>
+                    <![CDATA[Feel free to pick your own book to discuss, but this month"s main that seems fun is:<br />Chloe Neil"s "The Veil". It"s a newer book, so feel free to pick another if you aren"t into it, just start a thread in this folder!<br /><a target="_blank" href="http://www.amazon.com/Veil-Devils-Isle-Novel-ebook/dp/B00OQS4GCK/ref=sr_1_2?s=books&amp;ie=UTF8&amp;qid=1446005323&amp;sr=1-2&amp;keywords=the+veil" rel="nofollow">http://www.amazon.com/Veil-Devils-Isl...</a><br /><br /><br />I tried to get a themed one, but the Thanksgiving romance list is... well, see for yourself:<br /><a target="_blank" href="https://www.goodreads.com/list/show/80797.Thanksgiving_Romances">https://www.goodreads.com/list/show/8...</a>]]></body>
+            </update>
+            <update type="comment">
+                <action_text>
+                    <![CDATA[<a href="https://www.goodreads.com/user/show/666892-felicia">Felicia</a> commented on the topic <i>UPDATE FOR NOV/DEC: Holiday Hiatus!</i> in Vaginal Fantasy Book Club]]></action_text>
+                <link>https://www.goodreads.com/topic/show/17594539-update-for-nov-dec-holiday-hiatus</link>
+                <image_url>https://d.gr-assets.com/groups/1401146798p2/62938.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Tue, 27 Oct 2015 20:35:25 -0700</updated_at>
+                <body>
+                    <![CDATA[Hey all! Given the crazy holiday schedules, the birth of Kiala"s baby, and everyone"s business, we have decided to take November and December off from doing the videos!<br />This doesn"t mean the group goes dead though! Feel free to post any discussions here on books you"re reading over the holidays, recommendations etc. This can be a time to share new discoveries!<br /><br />ALSO if you have any January requests for main books, leave them IN THIS THREAD! Always excited to discover new genres or voices, so post your suggests here!<br /><br />And feel free to create topics in this forum subject about anything under the sun! I"ll post a suggested main for November and Dec. but feel free to pick your own too!<br /><br />Thanks all, happy holidays, and see ya in the new year!<br />oxxo<br />VagFan Ladies]]></body>
+            </update>
+            <update type="comment">
+                <action_text>
+                    <![CDATA[<a href="https://www.goodreads.com/user/show/666892-felicia">Felicia</a> commented on the topic <i>Questions for our 10/27 Hangout on: S...</i> in Vaginal Fantasy Book Club]]></action_text>
+                <link>https://www.goodreads.com/topic/show/17520133-questions-for-our-10-27-hangout-on-silver-lining
+                </link>
+                <image_url>https://d.gr-assets.com/groups/1401146798p2/62938.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Sun, 04 Oct 2015 11:32:05 -0700</updated_at>
+                <body>
+                    <![CDATA[Please post what you would like us to talk about for our October hangout discussing WESTERN romances! Our main pick is "Silver Lining" by Maggie Osborne!<br /><br />Hangout Oct 27th at 7pm here:<br /><a target="_blank" href="https://www.youtube.com/watch?v=0fu9VN_kyl0" rel="nofollow">https://www.youtube.com/watch?v=0fu9V...</a>]]></body>
+            </update>
+            <update type="comment">
+                <action_text>
+                    <![CDATA[<a href="https://www.goodreads.com/user/show/666892-felicia">Felicia</a> commented on the topic <i>Post your Questions for our Hangout 1...</i> in Vaginal Fantasy Book Club]]></action_text>
+                <link>https://www.goodreads.com/topic/show/17404223-post-your-questions-for-our-hangout-10-4</link>
+                <image_url>https://d.gr-assets.com/groups/1401146798p2/62938.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Mon, 28 Sep 2015 20:00:20 -0700</updated_at>
+                <body>
+                    <![CDATA[Update: We moved the VF hangout to Sunday night due to a scheduling conflict, thanks for the patience! Also next hangout: WESTERN themed, eep!<br /><a target="_blank" href="https://www.youtube.com/watch?v=fpIcnNlD0uw" rel="nofollow">https://www.youtube.com/watch?v=fpIcn...</a>]]></body>
+            </update>
+            <update type="readstatus">
+                <action_text>
+                    <![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/1380394096">Radiance (Wraith Kings, #1)</a>]]></action_text>
+                <link>https://www.goodreads.com/read_statuses/991105527</link>
+                <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Tue, 01 Sep 2015 16:12:38 -0700</updated_at>
+                <object>
+                    <read_status>
+                        <id type="integer">991105527</id>
+                        <review_id type="integer">1380394096</review_id>
+                        <user_id type="integer">666892</user_id>
+                        <old_status nil="true"/>
+                        <status>to-read</status>
+                        <updated_at type="datetime">2015-09-01T23:12:38+00:00</updated_at>
+                        <review>
+                            <id type="integer">
+                                138039409{"method":"GET","url":"/api/readers/666892-felicia","httpVersion":"1.1","statusCode":200,"referrer":"http://localhost:3000/","userAgent":"Mozilla/5.0
+                                (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko)
+                                Chrome/46.0.2490.86
+                                Safari/537.36","remoteAddress":"::ffff:127.0.0.1","duration":819,"message":"request","level":"info","reqId":"bf0c1ee0-8bcc-11e5-a161-b5e7a4edff33"}
+                                6
+                            </id>
+                            <user_id type="integer">666892</user_id>
+                            <book_id type="integer">24473763</book_id>
+                            <rating type="integer">0</rating>
+                            <read_status>to-read</read_status>
+                            <sell_flag type="boolean">false</sell_flag>
+                            <review nil="true"/>
+                            <recommendation nil="true"/>
+                            <read_at type="datetime" nil="true"/>
+                            <updated_at type="datetime">2015-09-01T23:12:38+00:00</updated_at>
+                            <created_at type="datetime">2015-09-01T23:12:37+00:00</created_at>
+                            <comments_count type="integer">0</comments_count>
+                            <weight type="integer">0</weight>
+                            <ratings_sum type="integer">0</ratings_sum>
+                            <ratings_count type="integer">0</ratings_count>
+                            <notes nil="true"/>
+                            <spoiler_flag type="boolean">false</spoiler_flag>
+                            <recommender_user_id1 type="integer">0</recommender_user_id1>
+                            <recommender_user_name1 nil="true"/>
+                            <work_id type="integer">40780371</work_id>
+                            <read_count nil="true"/>
+                            <last_comment_at type="datetime" nil="true"/>
+                            <started_at type="datetime" nil="true"/>
+                            <hidden_flag type="boolean">false</hidden_flag>
+                            <language_code type="integer" nil="true"/>
+                            <last_revision_at type="datetime">2015-09-01T23:12:38+00:00</last_revision_at>
+                            <non_friends_rating_count type="integer">0</non_friends_rating_count>
+                            <book>
+                                <id type="integer">24473763</id>
+                                <work_id type="integer">40780371</work_id>
+                                <isbn nil="true"/>
+                                <isbn13 nil="true"/>
+                                <title>Radiance (Wraith Kings, #1)</title>
+                                <sort_by_title>radiance (wraith kings, #1)</sort_by_title>
+                                <author_id type="integer">2759153</author_id>
+                                <author_role nil="true"/>
+                                <asin>B00S5IDLEQ</asin>
+                                <description nil="true"/>
+                                <format>Kindle Edition</format>
+                                <publication_year type="integer">2015</publication_year>
+                                <publication_month type="integer">1</publication_month>
+                                <publication_day type="integer">13</publication_day>
+                                <num_pages type="integer">297</num_pages>
+                                <publisher>Grace Draven</publisher>
+                                <language_code>eng</language_code>
+                                <edition_information nil="true"/>
+                                <url nil="true"/>
+                                <source_url nil="true"/>
+                                <image_uploaded_at type="datetime">2015-01-31T16:25:00+00:00</image_uploaded_at>
+                                <s3_image_at type="datetime">2015-06-16T08:13:17+00:00</s3_image_at>
+                                <reviews_count type="integer">6048</reviews_count>
+                                <ratings_sum type="integer">14092</ratings_sum>
+                                <ratings_count type="integer">3358</ratings_count>
+                                <text_reviews_count type="integer">371</text_reviews_count>
+                                <book_authors_count type="integer">0</book_authors_count>
+                                <updated_at type="datetime">2015-06-16T08:13:17+00:00</updated_at>
+                                <created_at type="datetime">2015-01-13T01:31:55+00:00</created_at>
+                                <author_id_updater_user_id type="integer">-9</author_id_updater_user_id>
+                                <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+                                <description_updater_user_id type="integer">154308</description_updater_user_id>
+                                <edition_information_updater_user_id type="integer" nil="true"/>
+                                <format_updater_user_id type="integer">-9</format_updater_user_id>
+                                <image_updater_user_id type="integer">-9</image_updater_user_id>
+                                <isbn_updater_user_id type="integer" nil="true"/>
+                                <isbn13_updater_user_id type="integer" nil="true"/>
+                                <language_updater_user_id type="integer">154308</language_updater_user_id>
+                                <num_pages_updater_user_id type="integer">-9</num_pages_updater_user_id>
+                                <publication_date_updater_user_id type="integer">18618332
+                                </publication_date_updater_user_id>
+                                <publisher_updater_user_id type="integer">-9</publisher_updater_user_id>
+                                <title_updater_user_id type="integer">3666031</title_updater_user_id>
+                                <url_updater_user_id type="integer" nil="true"/>
+                                <title_language_code nil="true"/>
+                                <publisher_language_code nil="true"/>
+                                <description_language_code nil="true"/>
+                                <asin_updater_user_id type="integer" nil="true"/>
+                                <author>
+                                    <id type="integer">2759153</id>
+                                    <name>Grace Draven</name>
+                                    <updated_at type="datetime">2015-11-11T22:44:11+00:00</updated_at>
+                                    <created_at type="datetime">2008-12-23T21:15:14+00:00</created_at>
+                                    <searched_for_at type="datetime">2009-09-06T04:05:54+00:00</searched_for_at>
+                                    <image_uploaded_at type="datetime">2011-10-18T04:30:37+00:00</image_uploaded_at>
+                                    <user_id type="integer">2671106</user_id>
+                                    <gender>F</gender>
+                                    <country_code></country_code>
+                                    <born_at type="datetime" nil="true"/>
+                                    <died_at type="datetime" nil="true"/>
+                                    <about>I"m an author and Louisiana native living in Texas with my husband, three
+                                        smalls and a big doofus dog. I have lived in Spain, hiked the Teton Mountains,
+                                        honeymooned in Scotland, ridden in competition rodeo and am the great great
+                                        granddaughter of a Nicaraguan president. I also hate doing laundry and refuse to
+                                        iron anything.\r
+                                        \r
+                                        I"ve loved storytelling since forever. I published my first short story with
+                                        Amber Quill Press and have since written several other tales. A love of the bad
+                                        boy in fiction always inspires me.
+                                    </about>
+                                    <uploader_user_id type="integer">2671106</uploader_user_id>
+                                    <image_copyright>author image used was commissioned and licensed for use by the
+                                        author from the artist, Isis Sousa -
+                                        http://isissousa2.deviantart.com/art/Denise-s-portrait-261120710?q=gallery%3Aisissousa2%20randomize%
+                                    </image_copyright>
+                                    <influences>[a:Andre Norton|4766|Andre
+                                        Norton|http://photo.goodreads.com/authors/1202314064p2/4766.jpg], [a:Barbara
+                                        Hambly|10333|Barbara
+                                        Hambly|http://photo.goodreads.com/authors/1251133270p2/10333.jpg], [a:Linda
+                                        Howard|16961|Linda
+                                        Howard|http://photo.goodreads.com/authors/1238749914p2/16961.jpg], [a:Anne
+                                        Stuart|13635|Anne
+                                        Stuart|http://photo.goodreads.com/authors/1241802910p2/13635.jpg], [a:Dorothy
+                                        Dunnett|8361|Dorothy
+                                        Dunnett|http://photo.goodreads.com/authors/1254855401p2/8361.jpg]
+                                    </influences>
+                                    <url>http://www.gracedraven.com/</url>
+                                    <genre1>Romance</genre1>
+                                    <genre2>Science Fiction &amp; Fantasy</genre2>
+                                    <genre3>Short Stories</genre3>
+                                    <books_count type="integer">33</books_count>
+                                    <reviews_count type="integer">38680</reviews_count>
+                                    <ratings_sum type="integer">70338</ratings_sum>
+                                    <works_count type="integer">20</works_count>
+                                    <hometown></hometown>
+                                    <rating_dist>5:4|4:1|3:1|2:0|1:0|total:6</rating_dist>
+                                    <s3_image_at type="datetime">2015-05-15T03:26:37+00:00</s3_image_at>
+                                    <ratings_count type="integer">17371</ratings_count>
+                                    <text_reviews_count type="integer">1878</text_reviews_count>
+                                    <author_program_at type="datetime">2011-10-18T03:02:19+00:00</author_program_at>
+                                    <postal_code nil="true"/>
+                                    <fanships_count type="integer">396</fanships_count>
+                                    <best_book_id type="integer">6811150</best_book_id>
+                                    <name_language_code nil="true"/>
+                                    <sort_by_name>draven, grace</sort_by_name>
+                                    <shelf_display_name>Draven, Grace</shelf_display_name>
+                                    <gender_custom nil="true"/>
+                                    <gender_pronoun nil="true"/>
+                                </author>
+                            </book>
+                        </review>
+                    </read_status>
+
+                </object>
+            </update>
+            <update type="review">
+                <action_text>
+                    <![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/20643052-ink-and-bone">Ink and Bone (The Great Library, #1)</a> by <a href="https://www.goodreads.com/author/show/15292.Rachel_Caine">Rachel Caine</a>]]></action_text>
+                <link>https://www.goodreads.com/review/show/1352973776</link>
+                <image_url>https://d.gr-assets.com/books/1418350512s/20643052.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Sun, 16 Aug 2015 20:44:03 -0700</updated_at>
+                <action type="rating">
+                    <rating>5</rating>
+                </action>
+                <object>
+                    <book>
+                        <id>20643052</id>
+                        <title><![CDATA[Ink and Bone (The Great Library, #1)]]></title>
+                        <link>https://www.goodreads.com/book/show/20643052-ink-and-bone</link>
+                        <authors>
+                            <author>
+                                <id>15292</id>
+                                <name>Rachel Caine</name>
+                                <role></role>
+                                <image_url nophoto="false">
+                                    <![CDATA[https://d.gr-assets.com/authors/1373144795p5/15292.jpg]]>
+                                </image_url>
+                                <small_image_url nophoto="false">
+                                    <![CDATA[https://d.gr-assets.com/authors/1373144795p2/15292.jpg]]>
+                                </small_image_url>
+                                <link><![CDATA[https://www.goodreads.com/author/show/15292.Rachel_Caine]]></link>
+                                <average_rating>4.09</average_rating>
+                                <ratings_count>665588</ratings_count>
+                                <text_reviews_count>30429</text_reviews_count>
+                            </author>
+                        </authors>
+                    </book>
+                </object>
+                <body>
+                    <![CDATA[I am on book tour currently, and now appreciate every author who ever lived because this stuff is CRAY! It"s like doing a convention for 3 weeks straight, but you"re flying to different cities every day and since i"m a REALLY picky sleeper, I"m starting to feel like someone"s trying to murder me...<a href="https://www.goodreads.com/review/show/1352973776">more...</a>]]></body>
+            </update>
+            <update type="comment">
+                <action_text>
+                    <![CDATA[<a href="https://www.goodreads.com/user/show/666892-felicia">Felicia</a> commented on the topic <i>feliciadaybook.com</i> in Vaginal Fantasy Book Club]]></action_text>
+                <link>https://www.goodreads.com/topic/show/2115756-feliciadaybook-com</link>
+                <image_url>https://d.gr-assets.com/groups/1401146798p2/62938.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Sun, 09 Aug 2015 13:19:00 -0700</updated_at>
+                <body>
+                    <![CDATA[GUYZ! I"m on a plane RIGHT NOW! Come see me at one of the book tour stops! Or preorder/order my book at feliciadaybook.com!<br /><br />Also here"s a UK sweepstakes you still have a few days to enter!<br /><a target="_blank" href="https://www.waterstones.com/book/youre-never-weird-on-the-internet-almost/felicia-day/9780751562484" rel="nofollow">https://www.waterstones.com/book/your...</a><br /><br />Omg 3 weeks on the road, SO MUCH HGTV TO WATCH]]></body>
+            </update>
+            <update type="readstatus">
+                <action_text>
+                    <![CDATA[is currently reading <a only_path="false" href="https://www.goodreads.com/review/show/1352973776">Ink and Bone (The Great Library, #1)</a>]]></action_text>
+                <link>https://www.goodreads.com/read_statuses/955355986</link>
+                <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                <actor>
+                    <id type="integer">666892</id>
+                    <name>Felicia</name>
+                    <image_url>https://d.gr-assets.com/users/1437521850p2/666892.jpg</image_url>
+                    <link>https://www.goodreads.com/user/show/666892-felicia</link>
+                </actor>
+                <updated_at>Sun, 02 Aug 2015 19:07:24 -0700</updated_at>
+                <object>
+                    <read_status>
+                        <id type="integer">955355986</id>
+                        <review_id type="integer">1352973776</review_id>
+                        <user_id type="integer">666892</user_id>
+                        <old_status nil="true"/>
+                        <status>currently-reading</status>
+                        <updated_at type="datetime">2015-08-03T02:07:24+00:00</updated_at>
+                        <review>
+                            <id type="integer">1352973776</id>
+                            <user_id type="integer">666892</user_id>
+                            <book_id type="integer">20643052</book_id>
+                            <rating type="integer">5</rating>
+                            <read_status>read</read_status>
+                            <sell_flag type="boolean">false</sell_flag>
+                            <review>I am on book tour currently, and now appreciate every author who ever lived because
+                                this
+                                stuff is CRAY! It"s like doing a convention for 3 weeks straight, but you"re flying to
+                                different cities every day and since i"m a REALLY picky sleeper, I"m starting to feel
+                                like
+                                someone"s trying to murder me if the bed has a low thread count. Anyway, I loaded my
+                                Kindle up
+                                with reads in anticipation of traveling a lot, and this book was #1 on my list to get to
+                                first.
+                                And I loved it!
+
+                                I"m a big fan of Rachel Caine from her romance novels (and I know her in real life
+                                because I
+                                fanned out when I met her over her books several years ago, haha). She wrote a few
+                                series we"ve
+                                read in my Vaginal Fantasy book club, so imagine my surprise when I read this, and it"s
+                                not a
+                                girlie romance at all, it"s a YA novel with a boy protagonist. And it"s SO GOOD!
+
+                                This series is a fantasy love letter to books. When I was reading it, all I could think
+                                about
+                                was how much I loved going into a library as a kid and flipping through the books and
+                                finding
+                                new worlds. How it was forbidden to draw in a book and how terrible it was to mess one
+                                up in the
+                                slightest. Books were special. This series is set in an alt world where printing presses
+                                don"t
+                                exist, the Library in Alexandria never was burnt, and knowledge is controlled by an
+                                all-powerful
+                                Library (capital letter). Our hero is a member of a family who smuggles actual books, so
+                                you"re
+                                dropped immediately into a fantasy world that"s rich with conflict. Anyway, I don"t want
+                                to
+                                give more away, but there are amazing themes about freedom and the average person"s
+                                right to
+                                knowledge, as well as the permeating feeling of REVERENCE towards books. I felt very
+                                guilty that
+                                I was reading it on a kindle, lol, and wanted to run out and buy a real live book
+                                immediately
+                                after reading.
+
+                                Anyway, if you love books, this is a great read. It"s YA in tone but not too kiddie,
+                                there"s
+                                some dramatic stuff that happens, but it sets up for some great twists in the next book,
+                                which
+                                I"ll be sure to pick up. A quick fun read.
+
+                            </review>
+                            <recommendation></recommendation>
+                            <read_at type="datetime">2015-08-16T07:00:00+00:00</read_at>
+                            <updated_at type="datetime">2015-08-17T03:44:03+00:00</updated_at>
+                            <created_at type="datetime">2015-08-03T02:07:23+00:00</created_at>
+                            <comments_count type="integer">0</comments_count>
+                            <weight type="integer">22500</weight>
+                            <ratings_sum type="integer">224</ratings_sum>
+                            <ratings_count type="integer">224</ratings_count>
+                            <notes></notes>
+                            <spoiler_flag type="boolean">false</spoiler_flag>
+                            <recommender_user_id1 type="integer">0</recommender_user_id1>
+                            <recommender_user_name1></recommender_user_name1>
+                            <work_id type="integer">39934787</work_id>
+                            <read_count></read_count>
+                            <last_comment_at type="datetime" nil="true"/>
+                            <started_at type="datetime">2015-08-02T07:00:00+00:00</started_at>
+                            <hidden_flag type="boolean">false</hidden_flag>
+                            <language_code type="integer" nil="true"/>
+                            <last_revision_at type="datetime">2015-08-17T03:44:03+00:00</last_revision_at>
+                            <non_friends_rating_count type="integer">0</non_friends_rating_count>
+                            <book>
+                                <id type="integer">20643052</id>
+                                <work_id type="integer">39934787</work_id>
+                                <isbn nil="true"/>
+                                <isbn13 nil="true"/>
+                                <title>Ink and Bone (The Great Library, #1)</title>
+                                <sort_by_title>ink and bone (the great library, #1)</sort_by_title>
+                                <author_id type="integer">15292</author_id>
+                                <author_role nil="true"/>
+                                <asin>B00OQS4BQQ</asin>
+                                <description nil="true"/>
+                                <format>Kindle Edition</format>
+                                <publication_year type="integer">2015</publication_year>
+                                <publication_month type="integer">7</publication_month>
+                                <publication_day type="integer">7</publication_day>
+                                <num_pages type="integer">352</num_pages>
+                                <publisher>NAL</publisher>
+                                <language_code>eng</language_code>
+                                <edition_information nil="true"/>
+                                <url nil="true"/>
+                                <source_url nil="true"/>
+                                <image_uploaded_at type="datetime">2014-12-12T02:15:12+00:00</image_uploaded_at>
+                                <s3_image_at type="datetime">2015-06-16T06:01:24+00:00</s3_image_at>
+                                <reviews_count type="integer">22176</reviews_count>
+                                <ratings_sum type="integer">9785</ratings_sum>
+                                <ratings_count type="integer">2444</ratings_count>
+                                <text_reviews_count type="integer">583</text_reviews_count>
+                                <book_authors_count type="integer">0</book_authors_count>
+                                <updated_at type="datetime">2015-06-16T06:01:24+00:00</updated_at>
+                                <created_at type="datetime">2014-01-27T20:12:12+00:00</created_at>
+                                <author_id_updater_user_id type="integer">5151535</author_id_updater_user_id>
+                                <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+                                <description_updater_user_id type="integer">22494431</description_updater_user_id>
+                                <edition_information_updater_user_id type="integer" nil="true"/>
+                                <format_updater_user_id type="integer">6349980</format_updater_user_id>
+                                <image_updater_user_id type="integer">4646665</image_updater_user_id>
+                                <isbn_updater_user_id type="integer" nil="true"/>
+                                <isbn13_updater_user_id type="integer" nil="true"/>
+                                <language_updater_user_id type="integer">5151535</language_updater_user_id>
+                                <num_pages_updater_user_id type="integer">6349980</num_pages_updater_user_id>
+                                <publication_date_updater_user_id type="integer">6506151
+                                </publication_date_updater_user_id>
+                                <publisher_updater_user_id type="integer">5151535</publisher_updater_user_id>
+                                <title_updater_user_id type="integer">22494431</title_updater_user_id>
+                                <url_updater_user_id type="integer" nil="true"/>
+                                <title_language_code nil="true"/>
+                                <publisher_language_code nil="true"/>
+                                <description_language_code nil="true"/>
+                                <asin_updater_user_id type="integer" nil="true"/>
+                                <author>
+                                    <id type="integer">15292</id>
+                                    <name>Rachel Caine</name>
+                                    <updated_at type="datetime">2015-11-15T19:02:54+00:00</updated_at>
+                                    <created_at type="datetime">2007-01-04T02:57:12+00:00</created_at>
+                                    <searched_for_at type="datetime">2007-05-06T00:20:37+00:00</searched_for_at>
+                                    <image_uploaded_at type="datetime">2013-07-06T21:06:35+00:00</image_uploaded_at>
+                                    <user_id type="integer">21309353</user_id>
+                                    <gender>F</gender>
+                                    <country_code>US</country_code>
+                                    <born_at type="date">1962-04-27</born_at>
+                                    <died_at type="datetime" nil="true"/>
+                                    <about>Rachel Caine is a pen name of &lt;a
+                                        href="http://www.goodreads.com/author/show/299277.Roxanne_Longstreet_Conrad"&gt;Roxanne
+                                        Longstreet Conrad&lt;/a&gt;.\r
+                                        \r
+                                        She has also published as:\r
+                                        &lt;a href="http://www.goodreads.com/author/show/291119.Roxanne_Longstreet"&gt;Roxanne
+                                        Longstreet&lt;/a&gt;\r
+                                        &lt;a href="http://www.goodreads.com/author/show/299278.Roxanne_Conrad"&gt;Roxanne
+                                        Conrad&lt;/a&gt;\r
+                                        &lt;a href="http://www.goodreads.com/author/show/87307.Julie_Fortune"&gt;Julie
+                                        Fortune&lt;/a&gt;\r
+                                        &lt;a href="http://www.goodreads.com/author/show/245808.Ian_Hammell"&gt;Ian
+                                        Hammell&lt;/a&gt;\r
+                                        \r
+                                        Her Facebook page:\r
+                                        https://www.facebook.com/rachelcainefanpage?sk=info
+                                    </about>
+                                    <uploader_user_id type="integer">21309353</uploader_user_id>
+                                    <image_copyright>Photo by Robert W. Hart, used with permission</image_copyright>
+                                    <influences></influences>
+                                    <url>http://www.rachelcaine.com/</url>
+                                    <genre1>Paranormal Romance</genre1>
+                                    <genre2>Young Adult</genre2>
+                                    <genre3>Urban Fantasy</genre3>
+                                    <books_count type="integer">818</books_count>
+                                    <reviews_count type="integer">1227653</reviews_count>
+                                    <ratings_sum type="integer">2722680</ratings_sum>
+                                    <works_count type="integer">105</works_count>
+                                    <hometown></hometown>
+                                    <rating_dist>5:38145|4:33817|3:19076|2:3485|1:718|total:95241</rating_dist>
+                                    <s3_image_at type="datetime">2015-05-14T23:00:23+00:00</s3_image_at>
+                                    <ratings_count type="integer">665588</ratings_count>
+                                    <text_reviews_count type="integer">30429</text_reviews_count>
+                                    <author_program_at type="datetime">2013-07-06T19:26:37+00:00</author_program_at>
+                                    <postal_code nil="true"/>
+                                    <fanships_count type="integer">8415</fanships_count>
+                                    <best_book_id type="integer">27266</best_book_id>
+                                    <name_language_code nil="true"/>
+                                    <sort_by_name>caine, rachel</sort_by_name>
+                                    <shelf_display_name>Caine, Rachel</shelf_display_name>
+                                    <gender_custom nil="true"/>
+                                    <gender_pronoun nil="true"/>
+                                </author>
+                            </book>
+                        </review>
+                    </read_status>
+
+                </object>
+            </update>
+        </updates>
+        <user_statuses>
+        </user_statuses>
+    </user>
+
+</GoodreadsResponse>

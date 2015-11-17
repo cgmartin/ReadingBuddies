@@ -1,0 +1,8 @@
+node_modules/
+bower_components/
+coverage/
+.idea/
+.tmp/
+build/
+npm-debug.log
+.env

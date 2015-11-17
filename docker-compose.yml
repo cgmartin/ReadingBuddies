@@ -1,0 +1,15 @@
+web:
+  build: .
+  ports:
+    - "8000:8000"
+  links:
+    - redis
+  environment:
+    - REDIS_HOST=redis
+  env_file: .env
+
+redis:
+  image: redis:3
+  command: redis-server --appendonly yes
+  ports:
+    - "6379:6379"

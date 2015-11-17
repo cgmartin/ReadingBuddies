@@ -1,0 +1,51 @@
+{
+  "name": "reading-buddies",
+  "description": "Aggregates the book reviews of multiple Goodreads users",
+  "main": "src/server/app/app.js",
+  "authors": [
+    "Christopher Martin <cgmartin@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "nodejs",
+    "redis",
+    "goodreads",
+    "gulp"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "ngstorage": "~0.3.9",
+    "font-awesome": "fontawesome#~4.4.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap-theme.css"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.7"
+  }
+}

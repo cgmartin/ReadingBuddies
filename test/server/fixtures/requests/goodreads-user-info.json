@@ -1,0 +1,2218 @@
+{
+  "GoodreadsResponse": {
+    "user": {
+      "id": 8114361,
+      "name": "Test User",
+      "user_name": "testuser",
+      "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader",
+      "image_url": "https://d.gr-assets.com/users/1423801576p3/8114361.jpg",
+      "small_image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+      "about": "** I have reached the GoodReads friend limit and I'm unable to accept anymore friend requests. I'm sorry! If I could accept all your friend requests I would, but GoodReads is lame. Feel free to follow me though! ",
+      "age": "",
+      "gender": "male",
+      "location": "The United States",
+      "website": "http://www.youtube.com/testuser",
+      "joined": "03/2012",
+      "last_active": "11/2015",
+      "interests": "",
+      "favorite_books": "",
+      "favorite_authors": {
+        "author": [
+          {
+            "id": {
+              "_": 3046613,
+              "type": "integer"
+            },
+            "name": "Ransom Riggs"
+          },
+          {
+            "id": {
+              "_": 3099544,
+              "type": "integer"
+            },
+            "name": "Victoria Schwab"
+          },
+          {
+            "id": {
+              "_": 36746,
+              "type": "integer"
+            },
+            "name": "Lemony Snicket"
+          },
+          {
+            "id": {
+              "_": 38120,
+              "type": "integer"
+            },
+            "name": "Brian Selznick"
+          },
+          {
+            "id": {
+              "_": 4208569,
+              "type": "integer"
+            },
+            "name": "Rainbow Rowell"
+          },
+          {
+            "id": {
+              "_": 1330292,
+              "type": "integer"
+            },
+            "name": "Maggie Stiefvater"
+          }
+        ]
+      },
+      "updates_rss_url": "https://www.goodreads.com/user/updates_rss/8114361?key=QrR4PIqc3lFmyekHW9IsDw2xJFgPTBcE89mh1R2KanPOeLd7",
+      "reviews_rss_url": "https://www.goodreads.com/review/list_rss/8114361?key=QrR4PIqc3lFmyekHW9IsDw2xJFgPTBcE89mh1R2KanPOeLd7&shelf=%23ALL%23",
+      "friends_count": {
+        "_": 5001,
+        "type": "integer"
+      },
+      "groups_count": 3,
+      "reviews_count": {
+        "_": 405,
+        "type": "integer"
+      },
+      "user_shelves": {
+        "type": "array",
+        "user_shelf": [
+          {
+            "id": {
+              "_": 27394156,
+              "type": "integer"
+            },
+            "name": "read",
+            "book_count": {
+              "_": 276,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 27394155,
+              "type": "integer"
+            },
+            "name": "currently-reading",
+            "book_count": {
+              "_": 2,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 27394154,
+              "type": "integer"
+            },
+            "name": "to-read",
+            "book_count": {
+              "_": 127,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": "a",
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 115444875,
+              "type": "integer"
+            },
+            "name": "books-that-made-me-cry",
+            "book_count": {
+              "_": 2,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 101811700,
+              "type": "integer"
+            },
+            "name": "booksplosion-reads",
+            "book_count": {
+              "_": 5,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 130209176,
+              "type": "integer"
+            },
+            "name": "favorites",
+            "book_count": {
+              "_": 7,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 55890296,
+              "type": "integer"
+            },
+            "name": "gifts-from-friends",
+            "book_count": {
+              "_": 6,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 76773810,
+              "type": "integer"
+            },
+            "name": "library-books",
+            "book_count": {
+              "_": 3,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          },
+          {
+            "id": {
+              "_": 117974457,
+              "type": "integer"
+            },
+            "name": "put-on-hold",
+            "book_count": {
+              "_": 1,
+              "type": "integer"
+            },
+            "exclusive_flag": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "description": {
+              "nil": "true"
+            },
+            "sort": {
+              "nil": "true"
+            },
+            "order": {
+              "nil": "true"
+            },
+            "per_page": {
+              "type": "integer",
+              "nil": "true"
+            },
+            "display_fields": "",
+            "featured": {
+              "_": "false",
+              "type": "boolean"
+            },
+            "recommend_for": {
+              "_": "true",
+              "type": "boolean"
+            },
+            "sticky": {
+              "type": "boolean",
+              "nil": "true"
+            }
+          }
+        ]
+      },
+      "updates": {
+        "type": "array",
+        "update": [
+          {
+            "type": "readstatus",
+            "action_text": "started reading <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/1432303892\">Curse of the Sphinx (Sphinx, #1)</a>",
+            "link": "https://www.goodreads.com/read_statuses/1068354481",
+            "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+            "actor": {
+              "id": {
+                "_": 8114361,
+                "type": "integer"
+              },
+              "name": "Test User",
+              "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+              "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader"
+            },
+            "updated_at": "Tue, 10 Nov 2015 16:33:22 -0800",
+            "object": {
+              "read_status": {
+                "id": {
+                  "_": 1068354481,
+                  "type": "integer"
+                },
+                "review_id": {
+                  "_": 1432303892,
+                  "type": "integer"
+                },
+                "user_id": {
+                  "_": 8114361,
+                  "type": "integer"
+                },
+                "old_status": "to-read",
+                "status": "currently-reading",
+                "updated_at": {
+                  "_": "2015-11-11T00:33:22+00:00",
+                  "type": "datetime"
+                },
+                "review": {
+                  "id": {
+                    "_": 1432303892,
+                    "type": "integer"
+                  },
+                  "user_id": {
+                    "_": 8114361,
+                    "type": "integer"
+                  },
+                  "book_id": {
+                    "_": 25905676,
+                    "type": "integer"
+                  },
+                  "rating": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "read_status": "currently-reading",
+                  "sell_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "review": {
+                    "nil": "true"
+                  },
+                  "recommendation": {
+                    "nil": "true"
+                  },
+                  "read_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "updated_at": {
+                    "_": "2015-11-11T00:33:22+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2015-11-03T12:18:53+00:00",
+                    "type": "datetime"
+                  },
+                  "comments_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "weight": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "ratings_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "notes": {
+                    "nil": "true"
+                  },
+                  "spoiler_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "recommender_user_id1": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "recommender_user_name1": {
+                    "nil": "true"
+                  },
+                  "work_id": {
+                    "_": 25336272,
+                    "type": "integer"
+                  },
+                  "read_count": {
+                    "nil": "true"
+                  },
+                  "last_comment_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "started_at": {
+                    "_": "2015-11-11T00:33:22+00:00",
+                    "type": "datetime"
+                  },
+                  "hidden_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "language_code": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "last_revision_at": {
+                    "_": "2015-11-11T00:33:22+00:00",
+                    "type": "datetime"
+                  },
+                  "non_friends_rating_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "book": {
+                    "id": {
+                      "_": 25905676,
+                      "type": "integer"
+                    },
+                    "work_id": {
+                      "_": 25336272,
+                      "type": "integer"
+                    },
+                    "isbn": {
+                      "nil": "true"
+                    },
+                    "isbn13": {
+                      "nil": "true"
+                    },
+                    "title": "Curse of the Sphinx (Sphinx, #1)",
+                    "sort_by_title": "curse of the sphinx (sphinx, #1)",
+                    "author_id": {
+                      "_": 7127010,
+                      "type": "integer"
+                    },
+                    "author_role": {
+                      "nil": "true"
+                    },
+                    "asin": {
+                      "nil": "true"
+                    },
+                    "description": "<b>How long can a monster stay hidden in plain sight?</b>\r\n\r\nSeventeen year-old Hope Nicholas has spent her entire life on the run. But no one is chasing her. In fact, no one even knows she exists. With her mom, she’s traveled from town to town and school to school, barely staying long enough to meet anyone, let alone make friends. And she’ll have to keep it that way. It’s safer.\r\n\r\nWhen her mother is brutally ripped away from her, Hope’s life shatters. Is this the fulfillment of Apollo’s curse, murder from the shadow monsters of the Underworld, or have the demigods finally found her? Orphaned and alone, Hope flees again, but this time there’s no one to teach her who to trust—or how to love.\r\n\r\nSet in a universe where mythology is alive and well in the modern world, <i>Curse of the Sphinx</i> irresistibly blends action, suspense and romance.",
+                    "format": "Kindle Edition",
+                    "publication_year": {
+                      "_": 2015,
+                      "type": "integer"
+                    },
+                    "publication_month": {
+                      "_": 8,
+                      "type": "integer"
+                    },
+                    "publication_day": {
+                      "_": 11,
+                      "type": "integer"
+                    },
+                    "num_pages": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "publisher": "",
+                    "language_code": "eng",
+                    "edition_information": {
+                      "nil": "true"
+                    },
+                    "url": {
+                      "nil": "true"
+                    },
+                    "source_url": {
+                      "nil": "true"
+                    },
+                    "image_uploaded_at": {
+                      "_": "2015-07-14T04:37:28+00:00",
+                      "type": "datetime"
+                    },
+                    "s3_image_at": {
+                      "_": "2015-07-14T04:37:29+00:00",
+                      "type": "datetime"
+                    },
+                    "reviews_count": {
+                      "_": 452,
+                      "type": "integer"
+                    },
+                    "ratings_sum": {
+                      "_": 137,
+                      "type": "integer"
+                    },
+                    "ratings_count": {
+                      "_": 37,
+                      "type": "integer"
+                    },
+                    "text_reviews_count": {
+                      "_": 27,
+                      "type": "integer"
+                    },
+                    "book_authors_count": {
+                      "_": 0,
+                      "type": "integer"
+                    },
+                    "updated_at": {
+                      "_": "2015-08-28T22:31:14+00:00",
+                      "type": "datetime"
+                    },
+                    "created_at": {
+                      "_": "2015-07-14T04:13:40+00:00",
+                      "type": "datetime"
+                    },
+                    "author_id_updater_user_id": {
+                      "_": 20429755,
+                      "type": "integer"
+                    },
+                    "author_role_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "description_updater_user_id": {
+                      "_": 14021568,
+                      "type": "integer"
+                    },
+                    "edition_information_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "format_updater_user_id": {
+                      "_": 20429755,
+                      "type": "integer"
+                    },
+                    "image_updater_user_id": {
+                      "_": 20429755,
+                      "type": "integer"
+                    },
+                    "isbn_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "isbn13_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "language_updater_user_id": {
+                      "_": 20429755,
+                      "type": "integer"
+                    },
+                    "num_pages_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "publication_date_updater_user_id": {
+                      "_": 20429755,
+                      "type": "integer"
+                    },
+                    "publisher_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "title_updater_user_id": {
+                      "_": 20583675,
+                      "type": "integer"
+                    },
+                    "url_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "title_language_code": {
+                      "nil": "true"
+                    },
+                    "publisher_language_code": {
+                      "nil": "true"
+                    },
+                    "description_language_code": {
+                      "nil": "true"
+                    },
+                    "asin_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "author": {
+                      "id": {
+                        "_": 7127010,
+                        "type": "integer"
+                      },
+                      "name": "Raye Wagner",
+                      "updated_at": {
+                        "_": "2015-10-03T09:51:42+00:00",
+                        "type": "datetime"
+                      },
+                      "created_at": {
+                        "_": "2013-06-10T07:16:40+00:00",
+                        "type": "datetime"
+                      },
+                      "searched_for_at": {
+                        "type": "datetime",
+                        "nil": "true"
+                      },
+                      "image_uploaded_at": {
+                        "_": "2015-07-10T20:40:05+00:00",
+                        "type": "datetime"
+                      },
+                      "user_id": {
+                        "_": 20429755,
+                        "type": "integer"
+                      },
+                      "gender": "",
+                      "country_code": "",
+                      "born_at": {
+                        "_": "1973-06-04",
+                        "type": "date"
+                      },
+                      "died_at": {
+                        "type": "datetime",
+                        "nil": "true"
+                      },
+                      "about": "Raye Wagner grew up in Seattle, the second of eight children, and learned to escape chaos through the pages of fiction. As a youth, she read the likes of David Eddings, Leon Uris, and Jane Austen. Inspired by a fictional character, Raye pursued a career in nursing, thinking to help the world one patient at a time.\r\nOne summer afternoon, when her then young children were playing in the pool, a plot dropped into her head, and she started writing. \r\nShe enjoys baking, puzzles, Tae Kwon Do, and the sound of waves lapping at the sand. She lives with her husband and three children in Middle Tennessee.\r\n\r\nOrigin of the Sphinx, a novella detailing the story leading up to the creation of the mythological creature, is her first publication.  It is the beginning of the Sphinx series.  \r\n\r\nCurse of the Sphinx, the first book in the series, is completed, and set to be released in August 2015.\r\n",
+                      "uploader_user_id": {
+                        "_": 20429755,
+                        "type": "integer"
+                      },
+                      "image_copyright": "my brother took the picture",
+                      "influences": "",
+                      "url": "http://rayewagner.com/",
+                      "genre1": "Young-adult",
+                      "genre2": "Fantasy",
+                      "genre3": "Romance",
+                      "books_count": {
+                        "_": 7,
+                        "type": "integer"
+                      },
+                      "reviews_count": {
+                        "_": 632,
+                        "type": "integer"
+                      },
+                      "ratings_sum": {
+                        "_": 322,
+                        "type": "integer"
+                      },
+                      "works_count": {
+                        "_": 2,
+                        "type": "integer"
+                      },
+                      "hometown": "",
+                      "rating_dist": {
+                        "nil": "true"
+                      },
+                      "s3_image_at": {
+                        "type": "datetime",
+                        "nil": "true"
+                      },
+                      "ratings_count": {
+                        "_": 85,
+                        "type": "integer"
+                      },
+                      "text_reviews_count": {
+                        "_": 51,
+                        "type": "integer"
+                      },
+                      "author_program_at": {
+                        "_": "2013-06-13T07:11:45+00:00",
+                        "type": "datetime"
+                      },
+                      "postal_code": {
+                        "nil": "true"
+                      },
+                      "fanships_count": {
+                        "_": 9,
+                        "type": "integer"
+                      },
+                      "best_book_id": {
+                        "_": 18052205,
+                        "type": "integer"
+                      },
+                      "name_language_code": {
+                        "nil": "true"
+                      },
+                      "sort_by_name": "wagner, raye",
+                      "shelf_display_name": "Wagner, Raye",
+                      "gender_custom": {
+                        "nil": "true"
+                      },
+                      "gender_pronoun": {
+                        "nil": "true"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "review",
+            "action_text": "gave 4 stars to <a href=\"https://www.goodreads.com/book/show/24892774-the-lies-about-truth\">The Lies About Truth (ebook)</a> by <a href=\"https://www.goodreads.com/author/show/6431805.Courtney_C_Stevens\">Courtney C. Stevens</a>",
+            "link": "https://www.goodreads.com/review/show/1330170119",
+            "image_url": "https://d.gr-assets.com/books/1423864847s/24892774.jpg",
+            "actor": {
+              "id": {
+                "_": 8114361,
+                "type": "integer"
+              },
+              "name": "Test User",
+              "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+              "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader"
+            },
+            "updated_at": "Tue, 10 Nov 2015 16:32:51 -0800",
+            "action": {
+              "type": "rating",
+              "rating": 4
+            },
+            "object": {
+              "book": {
+                "id": 24892774,
+                "title": "The Lies About Truth",
+                "link": "https://www.goodreads.com/book/show/24892774-the-lies-about-truth",
+                "authors": {
+                  "author": {
+                    "id": 6431805,
+                    "name": "Courtney C. Stevens",
+                    "role": "",
+                    "image_url": {
+                      "_": "\nhttps://d.gr-assets.com/authors/1372120882p5/6431805.jpg\n",
+                      "nophoto": "false"
+                    },
+                    "small_image_url": {
+                      "_": "\nhttps://d.gr-assets.com/authors/1372120882p2/6431805.jpg\n",
+                      "nophoto": "false"
+                    },
+                    "link": "https://www.goodreads.com/author/show/6431805.Courtney_C_Stevens",
+                    "average_rating": 4.07,
+                    "ratings_count": 5127,
+                    "text_reviews_count": 884
+                  }
+                }
+              }
+            },
+            "body": "Courtney C. Stevens does it again with another fantastic book! I'll admit that it took time for me to get completely sucked in. The characters felt a bit meh to me at the beginning, but they grew on me towards the middle of the book. It also took awhile for the story to really take off, but once...<a href=\"https://www.goodreads.com/review/show/1330170119\">more...</a>"
+          },
+          {
+            "type": "review",
+            "action_text": "gave 4 stars to <a href=\"https://www.goodreads.com/book/show/16150830-never-fade\">Never Fade (The Darkest Minds, #2)</a> by <a href=\"https://www.goodreads.com/author/show/2973783.Alexandra_Bracken\">Alexandra Bracken</a>",
+            "link": "https://www.goodreads.com/review/show/1436493403",
+            "image_url": "https://d.gr-assets.com/books/1368460550s/16150830.jpg",
+            "actor": {
+              "id": {
+                "_": 8114361,
+                "type": "integer"
+              },
+              "name": "Test User",
+              "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+              "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader"
+            },
+            "updated_at": "Tue, 10 Nov 2015 07:14:40 -0800",
+            "action": {
+              "type": "rating",
+              "rating": 4
+            },
+            "object": {
+              "book": {
+                "id": 16150830,
+                "title": "Never Fade (The Darkest Minds, #2)",
+                "link": "https://www.goodreads.com/book/show/16150830-never-fade",
+                "authors": {
+                  "author": {
+                    "id": 2973783,
+                    "name": "Alexandra Bracken",
+                    "role": "",
+                    "image_url": {
+                      "_": "\nhttps://d.gr-assets.com/authors/1411581389p5/2973783.jpg\n",
+                      "nophoto": "false"
+                    },
+                    "small_image_url": {
+                      "_": "\nhttps://d.gr-assets.com/authors/1411581389p2/2973783.jpg\n",
+                      "nophoto": "false"
+                    },
+                    "link": "https://www.goodreads.com/author/show/2973783.Alexandra_Bracken",
+                    "average_rating": 4.31,
+                    "ratings_count": 131784,
+                    "text_reviews_count": 17159
+                  }
+                }
+              }
+            },
+            "body": "I liked this so much more than the first book! I can't wait to see how it comes to a close with the last book. "
+          },
+          {
+            "type": "userstatus",
+            "action_text": "is on page 340 of 512 of <a href=\"https://www.goodreads.com/book/show/16150830-never-fade\">Never Fade</a>",
+            "link": "https://www.goodreads.com/user_status/show/79887062",
+            "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+            "actor": {
+              "id": {
+                "_": 8114361,
+                "type": "integer"
+              },
+              "name": "Test User",
+              "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+              "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader"
+            },
+            "updated_at": "Mon, 09 Nov 2015 19:44:57 -0800",
+            "object": {
+              "user_status": {
+                "id": {
+                  "_": 79887062,
+                  "type": "integer"
+                },
+                "user_id": {
+                  "_": 8114361,
+                  "type": "integer"
+                },
+                "book_id": {
+                  "_": 16150830,
+                  "type": "integer"
+                },
+                "page": {
+                  "_": 340,
+                  "type": "integer"
+                },
+                "chapter": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "comments_count": {
+                  "_": 0,
+                  "type": "integer"
+                },
+                "body": "I want to try and finish this tonight! BUT WE'LL SEEEEEEEE.",
+                "created_at": {
+                  "_": "2015-11-10T03:44:57+00:00",
+                  "type": "datetime"
+                },
+                "updated_at": {
+                  "_": "2015-11-10T03:45:35+00:00",
+                  "type": "datetime"
+                },
+                "last_comment_at": {
+                  "type": "datetime",
+                  "nil": "true"
+                },
+                "ratings_count": {
+                  "_": 0,
+                  "type": "integer"
+                },
+                "percent": {
+                  "_": 66,
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": 21986942,
+                  "type": "integer"
+                },
+                "note_uri": "kca://note/amzn1.grok.note.e061d7d84aa5363c1b1ce58f8b90b3c8",
+                "note_updated_at": {
+                  "_": "2015-11-10T03:45:35+00:00",
+                  "type": "datetime"
+                },
+                "review_id": {
+                  "_": 1436493403,
+                  "type": "integer"
+                },
+                "book": {
+                  "id": {
+                    "_": 16150830,
+                    "type": "integer"
+                  },
+                  "work_id": {
+                    "_": 21986942,
+                    "type": "integer"
+                  },
+                  "isbn": 1423157516,
+                  "isbn13": 9781423157519,
+                  "title": "Never Fade (The Darkest Minds, #2)",
+                  "sort_by_title": "never fade (the darkest minds, #2)",
+                  "author_id": {
+                    "_": 2973783,
+                    "type": "integer"
+                  },
+                  "author_role": {
+                    "nil": "true"
+                  },
+                  "asin": {
+                    "nil": "true"
+                  },
+                  "description": {
+                    "nil": "true"
+                  },
+                  "format": "Hardcover",
+                  "publication_year": {
+                    "_": 2013,
+                    "type": "integer"
+                  },
+                  "publication_month": {
+                    "_": 10,
+                    "type": "integer"
+                  },
+                  "publication_day": {
+                    "_": 15,
+                    "type": "integer"
+                  },
+                  "num_pages": {
+                    "_": 512,
+                    "type": "integer"
+                  },
+                  "publisher": "Disney-Hyperion",
+                  "language_code": "eng",
+                  "edition_information": {
+                    "nil": "true"
+                  },
+                  "url": "http://thedarkestminds.com",
+                  "source_url": {
+                    "nil": "true"
+                  },
+                  "image_uploaded_at": {
+                    "_": "2013-05-13T15:55:50+00:00",
+                    "type": "datetime"
+                  },
+                  "s3_image_at": {
+                    "_": "2015-06-16T02:59:08+00:00",
+                    "type": "datetime"
+                  },
+                  "reviews_count": {
+                    "_": 67917,
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": 139589,
+                    "type": "integer"
+                  },
+                  "ratings_count": {
+                    "_": 31819,
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": 3291,
+                    "type": "integer"
+                  },
+                  "book_authors_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "updated_at": {
+                    "_": "2015-06-16T02:59:08+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2012-11-15T05:24:56+00:00",
+                    "type": "datetime"
+                  },
+                  "author_id_updater_user_id": {
+                    "_": 2276707,
+                    "type": "integer"
+                  },
+                  "author_role_updater_user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "description_updater_user_id": {
+                    "_": 5136858,
+                    "type": "integer"
+                  },
+                  "edition_information_updater_user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "format_updater_user_id": {
+                    "_": 2276707,
+                    "type": "integer"
+                  },
+                  "image_updater_user_id": {
+                    "_": 2276707,
+                    "type": "integer"
+                  },
+                  "isbn_updater_user_id": {
+                    "_": 4736859,
+                    "type": "integer"
+                  },
+                  "isbn13_updater_user_id": {
+                    "_": 1218813,
+                    "type": "integer"
+                  },
+                  "language_updater_user_id": {
+                    "_": 3889465,
+                    "type": "integer"
+                  },
+                  "num_pages_updater_user_id": {
+                    "_": 3889465,
+                    "type": "integer"
+                  },
+                  "publication_date_updater_user_id": {
+                    "_": 5136858,
+                    "type": "integer"
+                  },
+                  "publisher_updater_user_id": {
+                    "_": 2276707,
+                    "type": "integer"
+                  },
+                  "title_updater_user_id": {
+                    "_": 6398888,
+                    "type": "integer"
+                  },
+                  "url_updater_user_id": {
+                    "_": 2276707,
+                    "type": "integer"
+                  },
+                  "title_language_code": {
+                    "nil": "true"
+                  },
+                  "publisher_language_code": {
+                    "nil": "true"
+                  },
+                  "description_language_code": {
+                    "nil": "true"
+                  },
+                  "asin_updater_user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "author": {
+                    "id": {
+                      "_": 2973783,
+                      "type": "integer"
+                    },
+                    "name": "Alexandra Bracken",
+                    "updated_at": {
+                      "_": "2015-11-04T01:25:30+00:00",
+                      "type": "datetime"
+                    },
+                    "created_at": {
+                      "_": "2009-06-30T13:28:57+00:00",
+                      "type": "datetime"
+                    },
+                    "searched_for_at": {
+                      "_": "2009-07-03T19:18:50+00:00",
+                      "type": "datetime"
+                    },
+                    "image_uploaded_at": {
+                      "_": "2014-09-24T17:56:29+00:00",
+                      "type": "datetime"
+                    },
+                    "user_id": {
+                      "_": 2276707,
+                      "type": "integer"
+                    },
+                    "gender": "F",
+                    "country_code": "",
+                    "born_at": {
+                      "_": "1987-02-27",
+                      "type": "date"
+                    },
+                    "died_at": {
+                      "type": "datetime",
+                      "nil": "true"
+                    },
+                    "about": "Hi! I'm Alex and I write books. <b>Please note that I don't respond to messages here on GoodReads</b>. Please send me a note on twitter (@alexbracken) on on Tumblr (alexandrabracken.tumblr.com).  xx A",
+                    "uploader_user_id": {
+                      "_": 2276707,
+                      "type": "integer"
+                    },
+                    "image_copyright": "(c) John Geyster",
+                    "influences": "",
+                    "url": "http://alexandrabracken.com",
+                    "genre1": "Children's Books",
+                    "genre2": "Science Fiction & Fantasy",
+                    "genre3": "Romance",
+                    "books_count": {
+                      "_": 131,
+                      "type": "integer"
+                    },
+                    "reviews_count": {
+                      "_": 391453,
+                      "type": "integer"
+                    },
+                    "ratings_sum": {
+                      "_": 568119,
+                      "type": "integer"
+                    },
+                    "works_count": {
+                      "_": 14,
+                      "type": "integer"
+                    },
+                    "hometown": "",
+                    "rating_dist": "5:552|4:579|3:371|2:82|1:21|total:1605",
+                    "s3_image_at": {
+                      "_": "2015-05-15T03:50:08+00:00",
+                      "type": "datetime"
+                    },
+                    "ratings_count": {
+                      "_": 131784,
+                      "type": "integer"
+                    },
+                    "text_reviews_count": {
+                      "_": 17159,
+                      "type": "integer"
+                    },
+                    "author_program_at": {
+                      "_": "2009-07-04T00:52:54+00:00",
+                      "type": "datetime"
+                    },
+                    "postal_code": {
+                      "nil": "true"
+                    },
+                    "fanships_count": {
+                      "_": 5506,
+                      "type": "integer"
+                    },
+                    "best_book_id": {
+                      "_": 10576365,
+                      "type": "integer"
+                    },
+                    "name_language_code": {
+                      "nil": "true"
+                    },
+                    "sort_by_name": "bracken, alexandra",
+                    "shelf_display_name": "Bracken, Alexandra",
+                    "gender_custom": {
+                      "nil": "true"
+                    },
+                    "gender_pronoun": {
+                      "nil": "true"
+                    }
+                  }
+                }
+              }
+            },
+            "body": "I want to try and finish this tonight! BUT WE'LL SEEEEEEEE."
+          },
+          {
+            "type": "review",
+            "action_text": "gave 3 stars to <a href=\"https://www.goodreads.com/book/show/23271637-the-nest\">The Nest (Kindle Edition)</a> by <a href=\"https://www.goodreads.com/author/show/88922.Kenneth_Oppel\">Kenneth Oppel</a>",
+            "link": "https://www.goodreads.com/review/show/1435314306",
+            "image_url": "https://d.gr-assets.com/books/1425076899s/23271637.jpg",
+            "actor": {
+              "id": {
+                "_": 8114361,
+                "type": "integer"
+              },
+              "name": "Test User",
+              "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+              "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader"
+            },
+            "updated_at": "Sun, 08 Nov 2015 20:05:35 -0800",
+            "action": {
+              "type": "rating",
+              "rating": 3
+            },
+            "object": {
+              "book": {
+                "id": 23271637,
+                "title": "The Nest",
+                "link": "https://www.goodreads.com/book/show/23271637-the-nest",
+                "authors": {
+                  "author": {
+                    "id": 88922,
+                    "name": "Kenneth Oppel",
+                    "role": "",
+                    "image_url": {
+                      "_": "\nhttps://d.gr-assets.com/authors/1415724694p5/88922.jpg\n",
+                      "nophoto": "false"
+                    },
+                    "small_image_url": {
+                      "_": "\nhttps://d.gr-assets.com/authors/1415724694p2/88922.jpg\n",
+                      "nophoto": "false"
+                    },
+                    "link": "https://www.goodreads.com/author/show/88922.Kenneth_Oppel",
+                    "average_rating": 4.05,
+                    "ratings_count": 73850,
+                    "text_reviews_count": 6944
+                  }
+                }
+              }
+            },
+            "body": "This was such a strange book. The writing wasn't my favorite, which is surprising, because I loved The Boundless by Kenneth Oppel. The writing in The Boundless was rich and lively, but the writing in The Nest was a little bit dry for my liking. I did enjoy the pictures drawn by illustrator John K...<a href=\"https://www.goodreads.com/review/show/1435314306\">more...</a>"
+          },
+          {
+            "type": "readstatus",
+            "action_text": "is currently reading <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/1436493403\">Never Fade (The Darkest Minds, #2)</a>",
+            "link": "https://www.goodreads.com/read_statuses/1064730915",
+            "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+            "actor": {
+              "id": {
+                "_": 8114361,
+                "type": "integer"
+              },
+              "name": "Test User",
+              "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+              "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader"
+            },
+            "updated_at": "Sat, 07 Nov 2015 15:07:45 -0800",
+            "object": {
+              "read_status": {
+                "id": {
+                  "_": 1064730915,
+                  "type": "integer"
+                },
+                "review_id": {
+                  "_": 1436493403,
+                  "type": "integer"
+                },
+                "user_id": {
+                  "_": 8114361,
+                  "type": "integer"
+                },
+                "old_status": {
+                  "nil": "true"
+                },
+                "status": "currently-reading",
+                "updated_at": {
+                  "_": "2015-11-07T23:07:44+00:00",
+                  "type": "datetime"
+                },
+                "review": {
+                  "id": {
+                    "_": 1436493403,
+                    "type": "integer"
+                  },
+                  "user_id": {
+                    "_": 8114361,
+                    "type": "integer"
+                  },
+                  "book_id": {
+                    "_": 16150830,
+                    "type": "integer"
+                  },
+                  "rating": {
+                    "_": 4,
+                    "type": "integer"
+                  },
+                  "read_status": "read",
+                  "sell_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "review": "I liked this so much more than the first book! I can't wait to see how it comes to a close with the last book. ",
+                  "recommendation": "",
+                  "read_at": {
+                    "_": "2015-11-10T23:48:49+00:00",
+                    "type": "datetime"
+                  },
+                  "updated_at": {
+                    "_": "2015-11-10T15:14:39+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2015-11-07T23:07:44+00:00",
+                    "type": "datetime"
+                  },
+                  "comments_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "weight": {
+                    "_": 37454,
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": 374,
+                    "type": "integer"
+                  },
+                  "ratings_count": {
+                    "_": 374,
+                    "type": "integer"
+                  },
+                  "notes": "",
+                  "spoiler_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "recommender_user_id1": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "recommender_user_name1": "",
+                  "work_id": {
+                    "_": 21986942,
+                    "type": "integer"
+                  },
+                  "read_count": "",
+                  "last_comment_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "started_at": {
+                    "_": "2015-11-07T08:00:00+00:00",
+                    "type": "datetime"
+                  },
+                  "hidden_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "language_code": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "last_revision_at": {
+                    "_": "2015-11-10T15:14:39+00:00",
+                    "type": "datetime"
+                  },
+                  "non_friends_rating_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "book": {
+                    "id": {
+                      "_": 16150830,
+                      "type": "integer"
+                    },
+                    "work_id": {
+                      "_": 21986942,
+                      "type": "integer"
+                    },
+                    "isbn": 1423157516,
+                    "isbn13": 9781423157519,
+                    "title": "Never Fade (The Darkest Minds, #2)",
+                    "sort_by_title": "never fade (the darkest minds, #2)",
+                    "author_id": {
+                      "_": 2973783,
+                      "type": "integer"
+                    },
+                    "author_role": {
+                      "nil": "true"
+                    },
+                    "asin": {
+                      "nil": "true"
+                    },
+                    "description": {
+                      "nil": "true"
+                    },
+                    "format": "Hardcover",
+                    "publication_year": {
+                      "_": 2013,
+                      "type": "integer"
+                    },
+                    "publication_month": {
+                      "_": 10,
+                      "type": "integer"
+                    },
+                    "publication_day": {
+                      "_": 15,
+                      "type": "integer"
+                    },
+                    "num_pages": {
+                      "_": 512,
+                      "type": "integer"
+                    },
+                    "publisher": "Disney-Hyperion",
+                    "language_code": "eng",
+                    "edition_information": {
+                      "nil": "true"
+                    },
+                    "url": "http://thedarkestminds.com",
+                    "source_url": {
+                      "nil": "true"
+                    },
+                    "image_uploaded_at": {
+                      "_": "2013-05-13T15:55:50+00:00",
+                      "type": "datetime"
+                    },
+                    "s3_image_at": {
+                      "_": "2015-06-16T02:59:08+00:00",
+                      "type": "datetime"
+                    },
+                    "reviews_count": {
+                      "_": 67917,
+                      "type": "integer"
+                    },
+                    "ratings_sum": {
+                      "_": 139589,
+                      "type": "integer"
+                    },
+                    "ratings_count": {
+                      "_": 31819,
+                      "type": "integer"
+                    },
+                    "text_reviews_count": {
+                      "_": 3291,
+                      "type": "integer"
+                    },
+                    "book_authors_count": {
+                      "_": 0,
+                      "type": "integer"
+                    },
+                    "updated_at": {
+                      "_": "2015-06-16T02:59:08+00:00",
+                      "type": "datetime"
+                    },
+                    "created_at": {
+                      "_": "2012-11-15T05:24:56+00:00",
+                      "type": "datetime"
+                    },
+                    "author_id_updater_user_id": {
+                      "_": 2276707,
+                      "type": "integer"
+                    },
+                    "author_role_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "description_updater_user_id": {
+                      "_": 5136858,
+                      "type": "integer"
+                    },
+                    "edition_information_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "format_updater_user_id": {
+                      "_": 2276707,
+                      "type": "integer"
+                    },
+                    "image_updater_user_id": {
+                      "_": 2276707,
+                      "type": "integer"
+                    },
+                    "isbn_updater_user_id": {
+                      "_": 4736859,
+                      "type": "integer"
+                    },
+                    "isbn13_updater_user_id": {
+                      "_": 1218813,
+                      "type": "integer"
+                    },
+                    "language_updater_user_id": {
+                      "_": 3889465,
+                      "type": "integer"
+                    },
+                    "num_pages_updater_user_id": {
+                      "_": 3889465,
+                      "type": "integer"
+                    },
+                    "publication_date_updater_user_id": {
+                      "_": 5136858,
+                      "type": "integer"
+                    },
+                    "publisher_updater_user_id": {
+                      "_": 2276707,
+                      "type": "integer"
+                    },
+                    "title_updater_user_id": {
+                      "_": 6398888,
+                      "type": "integer"
+                    },
+                    "url_updater_user_id": {
+                      "_": 2276707,
+                      "type": "integer"
+                    },
+                    "title_language_code": {
+                      "nil": "true"
+                    },
+                    "publisher_language_code": {
+                      "nil": "true"
+                    },
+                    "description_language_code": {
+                      "nil": "true"
+                    },
+                    "asin_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "author": {
+                      "id": {
+                        "_": 2973783,
+                        "type": "integer"
+                      },
+                      "name": "Alexandra Bracken",
+                      "updated_at": {
+                        "_": "2015-11-04T01:25:30+00:00",
+                        "type": "datetime"
+                      },
+                      "created_at": {
+                        "_": "2009-06-30T13:28:57+00:00",
+                        "type": "datetime"
+                      },
+                      "searched_for_at": {
+                        "_": "2009-07-03T19:18:50+00:00",
+                        "type": "datetime"
+                      },
+                      "image_uploaded_at": {
+                        "_": "2014-09-24T17:56:29+00:00",
+                        "type": "datetime"
+                      },
+                      "user_id": {
+                        "_": 2276707,
+                        "type": "integer"
+                      },
+                      "gender": "F",
+                      "country_code": "",
+                      "born_at": {
+                        "_": "1987-02-27",
+                        "type": "date"
+                      },
+                      "died_at": {
+                        "type": "datetime",
+                        "nil": "true"
+                      },
+                      "about": "Hi! I'm Alex and I write books. <b>Please note that I don't respond to messages here on GoodReads</b>. Please send me a note on twitter (@alexbracken) on on Tumblr (alexandrabracken.tumblr.com).  xx A",
+                      "uploader_user_id": {
+                        "_": 2276707,
+                        "type": "integer"
+                      },
+                      "image_copyright": "(c) John Geyster",
+                      "influences": "",
+                      "url": "http://alexandrabracken.com",
+                      "genre1": "Children's Books",
+                      "genre2": "Science Fiction & Fantasy",
+                      "genre3": "Romance",
+                      "books_count": {
+                        "_": 131,
+                        "type": "integer"
+                      },
+                      "reviews_count": {
+                        "_": 391453,
+                        "type": "integer"
+                      },
+                      "ratings_sum": {
+                        "_": 568119,
+                        "type": "integer"
+                      },
+                      "works_count": {
+                        "_": 14,
+                        "type": "integer"
+                      },
+                      "hometown": "",
+                      "rating_dist": "5:552|4:579|3:371|2:82|1:21|total:1605",
+                      "s3_image_at": {
+                        "_": "2015-05-15T03:50:08+00:00",
+                        "type": "datetime"
+                      },
+                      "ratings_count": {
+                        "_": 131784,
+                        "type": "integer"
+                      },
+                      "text_reviews_count": {
+                        "_": 17159,
+                        "type": "integer"
+                      },
+                      "author_program_at": {
+                        "_": "2009-07-04T00:52:54+00:00",
+                        "type": "datetime"
+                      },
+                      "postal_code": {
+                        "nil": "true"
+                      },
+                      "fanships_count": {
+                        "_": 5506,
+                        "type": "integer"
+                      },
+                      "best_book_id": {
+                        "_": 10576365,
+                        "type": "integer"
+                      },
+                      "name_language_code": {
+                        "nil": "true"
+                      },
+                      "sort_by_name": "bracken, alexandra",
+                      "shelf_display_name": "Bracken, Alexandra",
+                      "gender_custom": {
+                        "nil": "true"
+                      },
+                      "gender_pronoun": {
+                        "nil": "true"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "readstatus",
+            "action_text": "is currently reading <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/1435314306\">The Nest</a>",
+            "link": "https://www.goodreads.com/read_statuses/1063199180",
+            "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+            "actor": {
+              "id": {
+                "_": 8114361,
+                "type": "integer"
+              },
+              "name": "Test User",
+              "image_url": "https://d.gr-assets.com/users/1423801576p2/8114361.jpg",
+              "link": "https://www.goodreads.com/user/show/8114361-jesse-jessethereader"
+            },
+            "updated_at": "Fri, 06 Nov 2015 06:46:15 -0800",
+            "object": {
+              "read_status": {
+                "id": {
+                  "_": 1063199180,
+                  "type": "integer"
+                },
+                "review_id": {
+                  "_": 1435314306,
+                  "type": "integer"
+                },
+                "user_id": {
+                  "_": 8114361,
+                  "type": "integer"
+                },
+                "old_status": {
+                  "nil": "true"
+                },
+                "status": "currently-reading",
+                "updated_at": {
+                  "_": "2015-11-06T14:46:15+00:00",
+                  "type": "datetime"
+                },
+                "review": {
+                  "id": {
+                    "_": 1435314306,
+                    "type": "integer"
+                  },
+                  "user_id": {
+                    "_": 8114361,
+                    "type": "integer"
+                  },
+                  "book_id": {
+                    "_": 23271637,
+                    "type": "integer"
+                  },
+                  "rating": {
+                    "_": 3,
+                    "type": "integer"
+                  },
+                  "read_status": "read",
+                  "sell_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "review": "This was such a strange book. The writing wasn't my favorite, which is surprising, because I loved The Boundless by Kenneth Oppel. The writing in The Boundless was rich and lively, but the writing in The Nest was a little bit dry for my liking. I did enjoy the pictures drawn by illustrator John Klassen. Unfortunately though, this book just fell short for me. ",
+                  "recommendation": "",
+                  "read_at": {
+                    "_": "2015-11-08T08:00:00+00:00",
+                    "type": "datetime"
+                  },
+                  "updated_at": {
+                    "_": "2015-11-09T04:05:35+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2015-11-06T14:46:15+00:00",
+                    "type": "datetime"
+                  },
+                  "comments_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "weight": {
+                    "_": 15278,
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": 152,
+                    "type": "integer"
+                  },
+                  "ratings_count": {
+                    "_": 152,
+                    "type": "integer"
+                  },
+                  "notes": "",
+                  "spoiler_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "recommender_user_id1": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "recommender_user_name1": "",
+                  "work_id": {
+                    "_": 42811477,
+                    "type": "integer"
+                  },
+                  "read_count": "",
+                  "last_comment_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "started_at": {
+                    "_": "2015-11-06T08:00:00+00:00",
+                    "type": "datetime"
+                  },
+                  "hidden_flag": {
+                    "_": "false",
+                    "type": "boolean"
+                  },
+                  "language_code": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "last_revision_at": {
+                    "_": "2015-11-09T04:05:35+00:00",
+                    "type": "datetime"
+                  },
+                  "non_friends_rating_count": {
+                    "_": 0,
+                    "type": "integer"
+                  },
+                  "book": {
+                    "id": {
+                      "_": 23271637,
+                      "type": "integer"
+                    },
+                    "work_id": {
+                      "_": 42811477,
+                      "type": "integer"
+                    },
+                    "isbn": {
+                      "nil": "true"
+                    },
+                    "isbn13": {
+                      "nil": "true"
+                    },
+                    "title": "The Nest",
+                    "sort_by_title": "nest, the",
+                    "author_id": {
+                      "_": 88922,
+                      "type": "integer"
+                    },
+                    "author_role": {
+                      "nil": "true"
+                    },
+                    "asin": "B00TBKYJ8Y",
+                    "description": {
+                      "nil": "true"
+                    },
+                    "format": "Kindle Edition",
+                    "publication_year": {
+                      "_": 2015,
+                      "type": "integer"
+                    },
+                    "publication_month": {
+                      "_": 10,
+                      "type": "integer"
+                    },
+                    "publication_day": {
+                      "_": 6,
+                      "type": "integer"
+                    },
+                    "num_pages": {
+                      "_": 256,
+                      "type": "integer"
+                    },
+                    "publisher": "Simon & Schuster",
+                    "language_code": {
+                      "nil": "true"
+                    },
+                    "edition_information": {
+                      "nil": "true"
+                    },
+                    "url": {
+                      "nil": "true"
+                    },
+                    "source_url": {
+                      "nil": "true"
+                    },
+                    "image_uploaded_at": {
+                      "_": "2015-02-27T22:41:39+00:00",
+                      "type": "datetime"
+                    },
+                    "s3_image_at": {
+                      "_": "2015-06-16T07:51:48+00:00",
+                      "type": "datetime"
+                    },
+                    "reviews_count": {
+                      "_": 3517,
+                      "type": "integer"
+                    },
+                    "ratings_sum": {
+                      "_": 2367,
+                      "type": "integer"
+                    },
+                    "ratings_count": {
+                      "_": 599,
+                      "type": "integer"
+                    },
+                    "text_reviews_count": {
+                      "_": 197,
+                      "type": "integer"
+                    },
+                    "book_authors_count": {
+                      "_": 1,
+                      "type": "integer"
+                    },
+                    "updated_at": {
+                      "_": "2015-06-16T07:51:48+00:00",
+                      "type": "datetime"
+                    },
+                    "created_at": {
+                      "_": "2014-09-25T19:28:43+00:00",
+                      "type": "datetime"
+                    },
+                    "author_id_updater_user_id": {
+                      "_": 1145788,
+                      "type": "integer"
+                    },
+                    "author_role_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "description_updater_user_id": {
+                      "_": 1145788,
+                      "type": "integer"
+                    },
+                    "edition_information_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "format_updater_user_id": {
+                      "_": 5136858,
+                      "type": "integer"
+                    },
+                    "image_updater_user_id": {
+                      "_": 5136858,
+                      "type": "integer"
+                    },
+                    "isbn_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "isbn13_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "language_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "num_pages_updater_user_id": {
+                      "_": 5136858,
+                      "type": "integer"
+                    },
+                    "publication_date_updater_user_id": {
+                      "_": 5136858,
+                      "type": "integer"
+                    },
+                    "publisher_updater_user_id": {
+                      "_": 1145788,
+                      "type": "integer"
+                    },
+                    "title_updater_user_id": {
+                      "_": 1145788,
+                      "type": "integer"
+                    },
+                    "url_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "title_language_code": {
+                      "nil": "true"
+                    },
+                    "publisher_language_code": {
+                      "nil": "true"
+                    },
+                    "description_language_code": {
+                      "nil": "true"
+                    },
+                    "asin_updater_user_id": {
+                      "type": "integer",
+                      "nil": "true"
+                    },
+                    "author": {
+                      "id": {
+                        "_": 88922,
+                        "type": "integer"
+                      },
+                      "name": "Kenneth Oppel",
+                      "updated_at": {
+                        "_": "2015-11-15T14:42:17+00:00",
+                        "type": "datetime"
+                      },
+                      "created_at": {
+                        "_": "2007-02-23T17:57:37+00:00",
+                        "type": "datetime"
+                      },
+                      "searched_for_at": {
+                        "_": "2007-03-23T16:47:54+00:00",
+                        "type": "datetime"
+                      },
+                      "image_uploaded_at": {
+                        "_": "2014-11-11T16:51:34+00:00",
+                        "type": "datetime"
+                      },
+                      "user_id": {
+                        "_": 11344571,
+                        "type": "integer"
+                      },
+                      "gender": "M",
+                      "country_code": "CA",
+                      "born_at": {
+                        "type": "datetime",
+                        "nil": "true"
+                      },
+                      "died_at": {
+                        "type": "datetime",
+                        "nil": "true"
+                      },
+                      "about": "I was born in 1967 in Port Alberni, a mill town on Vancouver Island, British Columbia but spent the bulk of my childhood in Victoria, B.C. and on the opposite coast, in Halifax, Nova Scotia...At around twelve I decided I wanted to be a writer (this came after deciding I wanted to be a scientist, and then an architect). I started out writing sci-fi epics (my Star Wars phase) then went on to swords and sorcery tales (my Dungeons and Dragons phase) and then, during the summer holiday when I was fourteen, started on a humorous story about a boy addicted to video games (written, of course, during my video game phase). It turned out to be quite a long story, really a short novel, and I rewrote it the next summer. We had a family friend who knew Roald Dahl - one of my favourite authors - and this friend offered to show Dahl my story. I was paralysed with excitement. I never heard back from Roald Dahl directly, but he read my story, and liked it enough to pass on to his own literary agent. I got a letter from them, saying they wanted to take me on, and try to sell my story. And they did.",
+                      "uploader_user_id": {
+                        "_": 11344571,
+                        "type": "integer"
+                      },
+                      "image_copyright": "copyright Ian Crysler",
+                      "influences": "",
+                      "url": "http://www.kennethoppel.ca/",
+                      "genre1": "Children's Books",
+                      "genre2": "",
+                      "genre3": "",
+                      "books_count": {
+                        "_": 436,
+                        "type": "integer"
+                      },
+                      "reviews_count": {
+                        "_": 144240,
+                        "type": "integer"
+                      },
+                      "ratings_sum": {
+                        "_": 298747,
+                        "type": "integer"
+                      },
+                      "works_count": {
+                        "_": 46,
+                        "type": "integer"
+                      },
+                      "hometown": "Port Alberni, British Columbia",
+                      "rating_dist": "5:3811|4:3784|3:1984|2:318|1:88|total:9985",
+                      "s3_image_at": {
+                        "_": "2015-05-14T23:14:54+00:00",
+                        "type": "datetime"
+                      },
+                      "ratings_count": {
+                        "_": 73850,
+                        "type": "integer"
+                      },
+                      "text_reviews_count": {
+                        "_": 6944,
+                        "type": "integer"
+                      },
+                      "author_program_at": {
+                        "_": "2012-07-30T23:51:03+00:00",
+                        "type": "datetime"
+                      },
+                      "postal_code": {
+                        "nil": "true"
+                      },
+                      "fanships_count": {
+                        "_": 1204,
+                        "type": "integer"
+                      },
+                      "best_book_id": {
+                        "_": 428042,
+                        "type": "integer"
+                      },
+                      "name_language_code": {
+                        "nil": "true"
+                      },
+                      "sort_by_name": "oppel, kenneth",
+                      "shelf_display_name": "Oppel, Kenneth",
+                      "gender_custom": {
+                        "nil": "true"
+                      },
+                      "gender_pronoun": {
+                        "nil": "true"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "user_statuses": {
+        "user_status": {
+          "id": {
+            "_": 79166122,
+            "type": "integer"
+          },
+          "page": {
+            "_": 172,
+            "type": "integer"
+          },
+          "chapter": {
+            "type": "integer",
+            "nil": "true"
+          },
+          "comments_count": {
+            "_": 0,
+            "type": "integer"
+          },
+          "body": "I think I'm going to have to hold off on reading this till closer to the live show, because I'm afraid I'll forget certain details! I AM REALLY ENJOYING THIS THOUGH!",
+          "created_at": {
+            "_": "2015-10-30T18:44:24+00:00",
+            "type": "datetime"
+          },
+          "updated_at": {
+            "_": "2015-10-30T18:44:36+00:00",
+            "type": "datetime"
+          },
+          "last_comment_at": {
+            "type": "datetime",
+            "nil": "true"
+          },
+          "ratings_count": {
+            "_": 0,
+            "type": "integer"
+          },
+          "percent": {
+            "_": 28,
+            "type": "integer"
+          },
+          "work_id": {
+            "_": 26653661,
+            "type": "integer"
+          },
+          "note_uri": "kca://note/amzn1.grok.note.a522ff651cf9e9b7ff527e02ad9fa763",
+          "note_updated_at": {
+            "_": "2015-10-30T18:44:36+00:00",
+            "type": "datetime"
+          },
+          "review_id": {
+            "_": 1429137791,
+            "type": "integer"
+          },
+          "book": {
+            "id": {
+              "_": 23395680,
+              "type": "integer"
+            },
+            "title": "Illuminae (The Illuminae Files, #1)",
+            "num_pages": {
+              "_": 599,
+              "type": "integer"
+            },
+            "image_url": "https://d.gr-assets.com/books/1443433956m/23395680.jpg",
+            "small_image_url": "https://d.gr-assets.com/books/1443433956s/23395680.jpg",
+            "authors": {
+              "author": [
+                {
+                  "id": 4735144,
+                  "name": "Jay Kristoff"
+                },
+                {
+                  "id": 5360335,
+                  "name": "Amie Kaufman"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
