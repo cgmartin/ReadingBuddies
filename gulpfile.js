@@ -80,7 +80,7 @@ gulp.task('partials', false, function() {
         })))
         .pipe($.remember('partials'))
         .pipe($.angularTemplatecache('templateCacheHtml.js', {
-            module: 'app.core',
+            module: 'app',
             root: 'app',
             standalone: false
         }))
