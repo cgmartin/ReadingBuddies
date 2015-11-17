@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.reader')
+        .module('app')
         .directive('latestBookReviews', latestBookReviewsDirective);
 
     /**
@@ -16,7 +16,7 @@
                 readerModel: '='
             },
             replace: false,
-            templateUrl: 'app/reader/latest-book-reviews.partial.html',
+            templateUrl: 'app/latest-book-reviews.partial.html',
             link: latestBookReviewsLink
         };
 

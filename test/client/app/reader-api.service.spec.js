@@ -2,19 +2,19 @@ describe('Reader Module', function() {
     var service;
     var httpBackend;
 
-    beforeEach(module('app.reader'));
-
-    beforeEach(inject(function($httpBackend, readerApi) {
-        httpBackend = $httpBackend;
-        service = readerApi;
-    }));
-
-    afterEach(function() {
-        httpBackend.verifyNoOutstandingExpectation();
-        httpBackend.verifyNoOutstandingRequest();
-    });
+    beforeEach(module('app'));
 
     describe('readerApi Service', function() {
+        beforeEach(inject(function($httpBackend, readerApi) {
+            httpBackend = $httpBackend;
+            service = readerApi;
+        }));
+
+        afterEach(function() {
+            httpBackend.verifyNoOutstandingExpectation();
+            httpBackend.verifyNoOutstandingRequest();
+        });
+
         it('should get reader reviews', function() {
             httpBackend.expectGET('/api/readers/1/reviews').respond({reviews: true});
 

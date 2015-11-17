@@ -3,7 +3,7 @@ describe('Reader Module', function() {
     var $scope;
     var readerApiMock;
 
-    beforeEach(module('app.reader', function($provide) {
+    beforeEach(module('app', function($provide) {
         readerApiMock = {
             getReaderReviews: sinon.stub(),
             getReaderInfo: sinon.stub()

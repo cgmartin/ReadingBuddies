@@ -2,7 +2,7 @@ describe('Home Module', function() {
     var controller;
     var $localStorageMock;
 
-    beforeEach(module('app.home'));
+    beforeEach(module('app'));
     beforeEach(function() {
         $localStorageMock = { readers: [] };
     });

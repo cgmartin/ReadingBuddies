@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.admin')
+        .module('app')
         .controller('AdminController', AdminController);
 
     /**

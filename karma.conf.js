@@ -52,7 +52,7 @@ module.exports = function (config) {
 
         ngHtml2JsPreprocessor: {
             stripPrefix: 'src/client/',
-            moduleName:  'app.core'
+            moduleName:  'app'
         },
 
 

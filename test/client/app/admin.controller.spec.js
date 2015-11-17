@@ -2,7 +2,7 @@ describe('Admin Module', function() {
     var controller;
     var $localStorageMock;
 
-    beforeEach(module('app.admin'));
+    beforeEach(module('app'));
     beforeEach(function() {
         $localStorageMock = { readers: [] };
     });

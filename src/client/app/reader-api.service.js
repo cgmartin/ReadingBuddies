@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.reader')
+        .module('app')
         .service('readerApi', ReaderApi);
 
     // @ngInject
