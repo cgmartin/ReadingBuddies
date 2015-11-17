@@ -15,14 +15,14 @@ describe('Admin Module', function() {
     describe('AdminController', function() {
         it('should add new reader', function() {
             controller.addReader();
-            expect(controller.$storage.readers).to.eql([{id: null}]);
+            expect(controller.storage.readers).to.eql([{id: null}]);
         });
 
         it('should remove reader', function() {
             $localStorageMock.readers.push({id: 1});
-            expect(controller.$storage.readers).to.eql([{id: 1}]);
+            expect(controller.storage.readers).to.eql([{id: 1}]);
             controller.removeReader(0);
-            expect(controller.$storage.readers).to.eql([]);
+            expect(controller.storage.readers).to.eql([]);
         });
     });
 });

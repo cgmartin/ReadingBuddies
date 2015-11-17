@@ -14,7 +14,7 @@ describe('Home Module', function() {
 
     describe('HomeController', function() {
         it('should have storage reference', function() {
-            expect(controller.$storage).to.eql($localStorageMock);
+            expect(controller.storage).to.eql($localStorageMock);
         });
     });
 });
