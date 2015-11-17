@@ -29,7 +29,7 @@ The project is comprised of an Angular SPA, Express REST API, and Gulp build pro
 
 ![Home page screenshot](./screenshots/home-page-screenshot.png?raw=true "Home page")
 
-![Config page screenshot](./screenshots/home-page-screenshot.png?raw=true "Config page")
+![Config page screenshot](./screenshots/config-page-screenshot.png?raw=true "Config page")
 
 ## Quick Start
 
