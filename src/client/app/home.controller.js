@@ -11,6 +11,6 @@
     // @ngInject
     function HomeController($localStorage) {
         var vm = this;
-        vm.$storage = $localStorage;
+        vm.storage = $localStorage;
     }
 })();

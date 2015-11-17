@@ -1,7 +1,7 @@
 <div class="container">
     <h2>Goodreads Reviews</h2>
 
-    <div class="row" ng-repeat="reader in vm.$storage.readers track by $index">
+    <div class="row" ng-repeat="reader in vm.storage.readers track by $index">
         <div class="col-md-12 reader-reviews-container">
             <latest-book-reviews reader-model="reader"></latest-book-reviews>
             <hr ng-if="!$last" class="clearfix">

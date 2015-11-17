@@ -7,7 +7,7 @@
             <form id="app-config-form">
                 <div class="form-group">
                     <label for="readerInput0">Goodreads User ID(s)</label>
-                    <div class="input-group" ng-repeat="reader in vm.$storage.readers track by $index">
+                    <div class="input-group" ng-repeat="reader in vm.storage.readers track by $index">
                         <input type="text" class="form-control" id="readerInput{{ $index }}"
                                ng-model="reader.id" placeholder="12345678">
                         <span class="input-group-btn">

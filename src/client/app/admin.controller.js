@@ -11,14 +11,14 @@
     // @ngInject
     function AdminController($localStorage) {
         var vm = this;
-        vm.$storage = $localStorage;
+        vm.storage = $localStorage;
 
         vm.addReader = function() {
-            vm.$storage.readers.push({id: null});
+            vm.storage.readers.push({id: null});
         };
 
         vm.removeReader = function(index) {
-            vm.$storage.readers.splice(index, 1);
+            vm.storage.readers.splice(index, 1);
         };
     }
 })();
