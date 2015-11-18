@@ -100,10 +100,14 @@ gulp.task('vendor-scripts', false, function() {
 });
 
 gulp.task('app-scripts', false, function() {
+    var tsProject = $.typescript.createProject('./src/client/tsconfig.json');
+
     var stream = gulp
-        .src(path.join(paths.clientSrc, '/app/**/*.js'))
+        .src(path.join(paths.clientSrc, '/app/**/*.ts'))
         .pipe($.cached('app-scripts'))
+        .pipe($.typescript(tsProject))
         .pipe($.ngAnnotate({add: true, single_quotes: true}))
+            .on('error', errorHandler('ngAnnotate'))
         .pipe($.remember('app-scripts'))
         .pipe($.order(jsLoadOrder)) // *Important*: Must come after $.remember to preserve order
         .pipe(verbosePrintFiles('app-scripts'));
@@ -319,9 +323,9 @@ function startBrowserSync(serverPort, next) {
  * Watch for file changes and rebuild
  */
 gulp.task('watch', false, ['build'], function() {
-    gulp.watch(jsLintPaths.concat('.jshintrc'), ['lint'])
-        .on('change', onWatchChange);
-    gulp.watch(path.join(paths.clientSrc, '/app/**/*.js'), ['app-scripts'])
+    //gulp.watch(jsLintPaths.concat('.jshintrc'), ['lint'])
+    //    .on('change', onWatchChange);
+    gulp.watch(path.join(paths.clientSrc, '/app/**/*.ts'), ['app-scripts'])
         .on('change', onWatchChange);
     gulp.watch(path.join(paths.clientSrc, '/styles/**/*.css'), ['app-styles'])
         .on('change', onWatchChange);

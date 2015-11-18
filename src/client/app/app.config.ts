@@ -1,5 +1,6 @@
-(function () {
-    'use strict';
+/// <reference path="../../../typings/tsd.d.ts" />
+
+namespace app {
 
     angular
         .module('app')
@@ -13,7 +14,7 @@
      * https://docs.angularjs.org/guide/production
      */
     // @ngInject
-    function initDebug($compileProvider) {
+    function initDebug($compileProvider:angular.ICompileProvider) {
         $compileProvider.debugInfoEnabled(true);
     }
 
@@ -21,7 +22,8 @@
      * Initialize the router's default behaviors
      */
     // @ngInject
-    function initRouter($locationProvider, $urlRouterProvider) {
+    function initRouter($locationProvider:angular.ILocationProvider,
+                        $urlRouterProvider:angular.ui.IUrlRouterProvider) {
         $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise('/');
     }
@@ -51,7 +53,7 @@
      * Initialize the routes for the application
      */
     // @ngInject
-    function initRoutes($stateProvider) {
+    function initRoutes($stateProvider:angular.ui.IStateProvider) {
         $stateProvider
             .state('home', {
                 url: '/',
@@ -66,4 +68,5 @@
                 controllerAs: 'vm'
             });
     }
-})();
+
+}

@@ -1,5 +1,6 @@
-(function () {
-    'use strict';
+/// <reference path="../../../typings/tsd.d.ts" />
+
+namespace app {
 
     angular
         .module('app')
@@ -29,22 +30,23 @@
                 scope.reader = null;
                 scope.reviewData = null;
 
-                if (scope.readerModel) {
-                    readerApi
-                        .getReaderReviews(scope.readerModel.id)
-                        .then(function (data) {
-                            console.log(data);
-                            scope.reviewData = data;
-                        });
+                if (!scope.readerModel) { return; }
 
-                    readerApi
-                        .getReaderInfo(scope.readerModel.id)
-                        .then(function (data) {
-                            console.log(data);
-                            scope.reader = data;
-                        });
-                }
+                readerApi
+                    .getReaderReviews(scope.readerModel.id)
+                    .then(function (data) {
+                        console.log(data);
+                        scope.reviewData = data;
+                    });
+
+                readerApi
+                    .getReaderInfo(scope.readerModel.id)
+                    .then(function (data) {
+                        console.log(data);
+                        scope.reader = data;
+                    });
             }
         }
     }
-})();
+
+}
