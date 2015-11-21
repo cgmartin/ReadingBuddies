@@ -1,24 +1,25 @@
-/// <reference path="../../../typings/tsd.d.ts" />
+/// <reference path="../tsd.d.ts" />
 
 namespace app {
+    'use strict';
 
     /**
      * Admin view controller
      */
     class AdminController {
-        storage: any;
+        public storage: ngStorage.IStorageService;
 
         // @ngInject
-        constructor($localStorage) {
+        constructor($localStorage: ngStorage.IStorageService) {
             this.storage = $localStorage;
         }
 
-        addReader():void {
-            this.storage.readers.push({id: null});
+        public addReader(): void {
+            this.storage['readers'].push({id: null});
         }
 
-        removeReader(index:number):void {
-            this.storage.readers.splice(index, 1);
+        public removeReader(index: number): void {
+            this.storage['readers'].splice(index, 1);
         }
     }
 

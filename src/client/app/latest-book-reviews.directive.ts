@@ -1,16 +1,40 @@
-/// <reference path="../../../typings/tsd.d.ts" />
+/// <reference path="../tsd.d.ts" />
 
 namespace app {
-
-    angular
-        .module('app')
-        .directive('latestBookReviews', latestBookReviewsDirective);
+    'use strict';
 
     /**
      * The latest book reviews for a reader
      * <latest-book-reviews reader-model="reader"/>
      */
-    function latestBookReviewsDirective(readerApi) {
+    // @ngInject
+    function latestBookReviewsDirective(readerApi: IReaderApi): angular.IDirective {
+
+        let link: Function = (scope: angular.IScope) => {
+            scope.$watch('readerModel', fetchReaderData);
+
+            function fetchReaderData(): void {
+                scope['reader'] = null;
+                scope['reviewData'] = null;
+
+                if (!scope['readerModel']) { return; }
+
+                readerApi
+                    .getReaderReviews(scope['readerModel'].id)
+                    .then((data: {}) => {
+                        console.log(data);
+                        scope['reviewData'] = data;
+                    });
+
+                readerApi
+                    .getReaderInfo(scope['readerModel'].id)
+                    .then((data: {}) => {
+                        console.log(data);
+                        scope['reader'] = data;
+                    });
+            }
+        };
+
         return {
             restrict: 'EA',
             scope: {
@@ -18,35 +42,12 @@ namespace app {
             },
             replace: false,
             templateUrl: 'app/latest-book-reviews.partial.html',
-            link: latestBookReviewsLink
+            link: link
         };
-
-        // @ngInject
-        function latestBookReviewsLink(scope, element, attrs) {
-
-            scope.$watch('readerModel', fetchReaderData);
-
-            function fetchReaderData() {
-                scope.reader = null;
-                scope.reviewData = null;
-
-                if (!scope.readerModel) { return; }
-
-                readerApi
-                    .getReaderReviews(scope.readerModel.id)
-                    .then(function (data) {
-                        console.log(data);
-                        scope.reviewData = data;
-                    });
-
-                readerApi
-                    .getReaderInfo(scope.readerModel.id)
-                    .then(function (data) {
-                        console.log(data);
-                        scope.reader = data;
-                    });
-            }
-        }
     }
+
+    angular
+        .module('app')
+        .directive('latestBookReviews', latestBookReviewsDirective);
 
 }

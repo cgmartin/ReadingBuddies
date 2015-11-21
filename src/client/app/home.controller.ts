@@ -1,15 +1,16 @@
-/// <reference path="../../../typings/tsd.d.ts" />
+/// <reference path="../tsd.d.ts" />
 
 namespace app {
+    'use strict';
 
     /**
      * Home view controller
      */
     class HomeController {
-        storage: any;
+        public storage: ngStorage.IStorageService;
 
         // @ngInject
-        constructor($localStorage) {
+        constructor($localStorage: ngStorage.IStorageService) {
             this.storage = $localStorage;
         }
     }

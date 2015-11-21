@@ -1,27 +1,31 @@
-/// <reference path="../../../typings/tsd.d.ts" />
+/// <reference path="../tsd.d.ts" />
 
 namespace app {
+    'use strict';
 
-    class ReaderApi {
+    export interface IReaderApi {
+        getReaderReviews(readerId: string): angular.IPromise<any>;
+        getReaderInfo(readerId: string): angular.IPromise<any>;
+    }
+
+    class ReaderApi implements IReaderApi {
         // @ngInject
-        constructor(public $http) {}
+        constructor(public $http: angular.IHttpService) {}
 
-        getReaderReviews(readerId:string) {
-            return this.$http({
-                method: 'get',
-                url: '/api/readers/' + readerId + '/reviews'
-            }).then(function(result) {
-                return result.data;
-            });
+        public getReaderReviews(readerId: string): angular.IPromise<any> {
+            return this.$http
+                .get('/api/readers/' + readerId + '/reviews')
+                .then((result: {data: {}}) => {
+                    return result.data;
+                });
         }
 
-        getReaderInfo(readerId:string) {
-            return this.$http({
-                method: 'get',
-                url: '/api/readers/' + readerId
-            }).then(function(result) {
-                return result.data;
-            });
+        public getReaderInfo(readerId: string): angular.IPromise<any> {
+            return this.$http
+                .get('/api/readers/' + readerId)
+                .then((result: {data: {}}) => {
+                    return result.data;
+                });
         }
     }
 

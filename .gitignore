@@ -7,5 +7,4 @@ build/
 npm-debug.log
 .env
 src/client/app/**/*.js
-/.tstmp
-typings/
+/typings/
