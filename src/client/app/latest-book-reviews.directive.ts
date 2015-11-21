@@ -1,4 +1,6 @@
 /// <reference path="../tsd.d.ts" />
+/// <reference path="reader-api.service.ts" />
+/// <reference path="reader.class.ts" />
 
 namespace app {
     'use strict';
@@ -20,14 +22,14 @@ namespace app {
                 if (!scope['readerModel']) { return; }
 
                 readerApi
-                    .getReaderReviews(scope['readerModel'].id)
+                    .getReaderReviews((<Reader>scope['readerModel']).id)
                     .then((data: {}) => {
                         console.log(data);
                         scope['reviewData'] = data;
                     });
 
                 readerApi
-                    .getReaderInfo(scope['readerModel'].id)
+                    .getReaderInfo((<Reader>scope['readerModel']).id)
                     .then((data: {}) => {
                         console.log(data);
                         scope['reader'] = data;

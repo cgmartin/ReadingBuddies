@@ -1,4 +1,5 @@
 /// <reference path="../tsd.d.ts" />
+/// <reference path="reader.class.ts" />
 
 namespace app {
     'use strict';
@@ -15,7 +16,7 @@ namespace app {
         }
 
         public addReader(): void {
-            this.storage['readers'].push({id: null});
+            this.storage['readers'].push(new Reader(null));
         }
 
         public removeReader(index: number): void {

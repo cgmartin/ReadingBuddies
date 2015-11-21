@@ -1,21 +1,13 @@
 /// <reference path="../tsd.d.ts" />
+/// <reference path="reader.class.ts" />
 
 namespace app {
     'use strict';
-
-    export interface IReader {
-        id: string;
-    }
-
-    export class Reader implements IReader {
-        constructor(public id: string) {}
-    }
 
     angular
         .module('app')
         .config(initDebug)
         .config(initRouter)
-        .config(initRoutes)
         .config(initStorage);
 
     /**
@@ -32,9 +24,24 @@ namespace app {
      */
     // @ngInject
     function initRouter($locationProvider: angular.ILocationProvider,
-                        $urlRouterProvider: angular.ui.IUrlRouterProvider): void {
+                        $urlRouterProvider: angular.ui.IUrlRouterProvider,
+                        $stateProvider: angular.ui.IStateProvider): void {
         $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise('/');
+
+        $stateProvider
+            .state('home', {
+                url: '/',
+                templateUrl: 'app/home.partial.html',
+                controller: 'HomeController',
+                controllerAs: 'vm'
+            })
+            .state('admin', {
+                url: '/configuration',
+                templateUrl: 'app/admin.partial.html',
+                controller: 'AdminController',
+                controllerAs: 'vm'
+            });
     }
 
     /**
@@ -57,25 +64,4 @@ namespace app {
             ]);
         }
     }
-
-    /**
-     * Initialize the routes for the application
-     */
-    // @ngInject
-    function initRoutes($stateProvider: angular.ui.IStateProvider): void {
-        $stateProvider
-            .state('home', {
-                url: '/',
-                templateUrl: 'app/home.partial.html',
-                controller: 'HomeController',
-                controllerAs: 'vm'
-            })
-            .state('admin', {
-                url: '/configuration',
-                templateUrl: 'app/admin.partial.html',
-                controller: 'AdminController',
-                controllerAs: 'vm'
-            });
-    }
-
 }
