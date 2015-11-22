@@ -1,26 +1,26 @@
 /// <reference path="../../../typings/tsd.d.ts" />
 
-describe('Admin Module', function() {
-    var controller;
-    var $localStorageMock;
+describe('Admin Module', () => {
+    let controller: any;
+    let $localStorageMock: any;
 
     beforeEach(angular.mock.module('app'));
-    beforeEach(function() {
+    beforeEach(() => {
         $localStorageMock = { readers: [] };
     });
-    beforeEach(inject(function($controller) {
+    beforeEach(inject(($controller: angular.IControllerService) => {
         controller = $controller('AdminController', {
             '$localStorage': $localStorageMock
         });
     }));
 
-    describe('AdminController', function() {
-        it('should add new reader', function() {
+    describe('AdminController', () => {
+        it('should add new reader', () => {
             controller.addReader();
             chai.expect(controller.storage.readers).to.eql([{id: null}]);
         });
 
-        it('should remove reader', function() {
+        it('should remove reader', () => {
             $localStorageMock.readers.push({id: 1});
             chai.expect(controller.storage.readers).to.eql([{id: 1}]);
             controller.removeReader(0);

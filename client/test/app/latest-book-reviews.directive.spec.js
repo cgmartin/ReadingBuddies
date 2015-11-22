@@ -25,7 +25,7 @@ describe('Reader Module', function () {
             var reviewData = { review: [] };
             readerApiMock.getReaderReviews.withArgs(1).returns($q.when(reviewData));
             readerApiMock.getReaderInfo.withArgs(1).returns($q.when(readerInfo));
-            $scope.readerModel = { id: 1 };
+            $scope['readerModel'] = { id: 1 };
             $scope.$apply();
             var parentDiv = angular.element(element[0].querySelector('.latest-book-reviews'));
             chai.expect(parentDiv.attr('id')).to.eql('1');
@@ -46,7 +46,7 @@ describe('Reader Module', function () {
             };
             readerApiMock.getReaderReviews.withArgs(2).returns($q.when(reviewData));
             readerApiMock.getReaderInfo.withArgs(2).returns($q.when(readerInfo));
-            $scope.readerModel = { id: 2 };
+            $scope['readerModel'] = { id: 2 };
             $scope.$apply();
             var parentDiv = angular.element(element[0].querySelector('.latest-book-reviews'));
             chai.expect(parentDiv.attr('id')).to.eql('2');

@@ -1,27 +1,27 @@
 /// <reference path="../../../typings/tsd.d.ts" />
 
-describe('Reader Module', function() {
-    var service;
-    var httpBackend;
+describe('Reader Module', () => {
+    let service: any;
+    let httpBackend: any;
 
     beforeEach(angular.mock.module('app'));
 
-    describe('readerApi Service', function() {
-        beforeEach(inject(function($httpBackend, readerApi) {
+    describe('readerApi Service', () => {
+        beforeEach(inject(($httpBackend: angular.IHttpBackendService, readerApi: any) => {
             httpBackend = $httpBackend;
             service = readerApi;
         }));
 
-        afterEach(function() {
+        afterEach(() => {
             httpBackend.verifyNoOutstandingExpectation();
             httpBackend.verifyNoOutstandingRequest();
         });
 
-        it('should get reader reviews', function() {
+        it('should get reader reviews', () => {
             httpBackend.expectGET('/api/readers/1/reviews').respond({reviews: true});
 
-            var result;
-            service.getReaderReviews(1).then(function(response) {
+            let result: any;
+            service.getReaderReviews(1).then((response: any) => {
                 result = response;
             });
 
@@ -29,11 +29,11 @@ describe('Reader Module', function() {
             chai.expect(result).to.eql({reviews: true});
         });
 
-        it('should get reader info', function() {
+        it('should get reader info', () => {
             httpBackend.expectGET('/api/readers/1').respond({readerInfo: true});
 
-            var result;
-            service.getReaderInfo(1).then(function(response) {
+            let result: any;
+            service.getReaderInfo(1).then((response: any) => {
                 result = response;
             });
 
