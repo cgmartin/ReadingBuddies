@@ -5,12 +5,12 @@ var mainBowerFiles = require('main-bower-files');
 function getFileList() {
     return mainBowerFiles({filter: /.*js$/i, includeDev: true})
         .concat([
-            'src/client/app/**/*.module.js',
-            'src/client/app/**/*.js',
-            'src/client/app/**/*.html',
-            'test/client/app/**/*.spec.js'
+            'client/src/app/**/*.module.js',
+            'client/src/app/**/*.js',
+            'client/src/app/**/*.html',
+            'client/test/app/**/*.spec.js'
         ])
-        .concat({ pattern: 'test/client/fixtures/assets/*.png', watched: false, included: false, served: true });
+        .concat({ pattern: 'client/test/fixtures/assets/*.png', watched: false, included: false, served: true });
 }
 
 // Karma configuration
@@ -37,7 +37,7 @@ module.exports = function (config) {
         files: getFileList(),
 
         proxies: {
-            '/fake.png': '/base/test/client/fixtures/assets/fake.png'
+            '/fake.png': '/base/client/test/fixtures/assets/fake.png'
         },
 
         // list of files to exclude
@@ -47,11 +47,11 @@ module.exports = function (config) {
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
-            'src/client/app/**/*.html': ['ng-html2js']
+            'client/src/app/**/*.html': ['ng-html2js']
         },
 
         ngHtml2JsPreprocessor: {
-            stripPrefix: 'src/client/',
+            stripPrefix: 'client/src',
             moduleName:  'app'
         },
 

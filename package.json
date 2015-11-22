@@ -2,12 +2,12 @@
   "name": "reading-buddies",
   "version": "1.0.0",
   "description": "Aggregates the book reviews of multiple Goodreads users",
-  "main": "src/server/app/app.js",
+  "main": "server/src/app/app.js",
   "scripts": {
-    "start": "node src/server/app/start-server.js",
-    "build": "gulp build --production",
+    "start": "node server/src/app/start-server.js",
+    "build": "gulp build --prod",
     "test": "gulp analyze && gulp test",
-    "develop": "gulp dev --verbose"
+    "dev": "gulp dev --verbose"
   },
   "keywords": [
     "angular",

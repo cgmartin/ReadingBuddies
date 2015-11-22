@@ -46,7 +46,7 @@ Configure the application:
 
 Build and run the application:
 
-1. Run `npm install` to install the app dependencies
+1. Run `npm install && bower install` to install the app dependencies
 1. Run `npm run build` to build the app JS/CSS bundles and static files folder (`./build/`)
 1. Run `npm start` to start the http server
 1. Open browser: <http://localhost:8000>

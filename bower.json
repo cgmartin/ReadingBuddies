@@ -1,7 +1,7 @@
 {
   "name": "reading-buddies",
   "description": "Aggregates the book reviews of multiple Goodreads users",
-  "main": "src/server/app/app.js",
+  "main": "server/src/app/app.js",
   "authors": [
     "Christopher Martin <cgmartin@gmail.com>"
   ],

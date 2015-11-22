@@ -35,11 +35,11 @@ var isVerbose = args.verbose;    // Enable extra verbose logging
 var isProduction = args.prod;    // Run extra steps (minification) with production flag --prod
 
 var paths = {
-    clientSrc:   'src/client',
+    clientSrc:   'client/src',
     clientBuild: 'build/client',
-    clientTests: 'test/client',
-    serverSrc:   'src/server',
-    serverTests: 'test/server',
+    clientTests: 'client/test',
+    serverSrc:   'server/src',
+    serverTests: 'server/test',
     tmp: '.tmp'
 };
 var jsLoadOrder = [
@@ -81,7 +81,7 @@ gulp.task('partials', false, function() {
         .pipe($.remember('partials'))
         .pipe($.angularTemplatecache('templateCacheHtml.js', {
             module: 'app',
-            root: 'app',
+            root: '/app',
             standalone: false
         }))
         .pipe(gulp.dest(path.join(paths.clientBuild, '/js/')));

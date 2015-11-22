@@ -5,7 +5,6 @@
         .module('app')
         .config(initDebug)
         .config(initRouter)
-        .config(initRoutes)
         .config(initStorage);
 
     /**
@@ -21,9 +20,23 @@
      * Initialize the router's default behaviors
      */
     // @ngInject
-    function initRouter($locationProvider, $urlRouterProvider) {
+    function initRouter($locationProvider, $urlRouterProvider, $stateProvider) {
         $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise('/');
+
+        $stateProvider
+            .state('home', {
+                url: '/',
+                templateUrl: '/app/home.partial.html',
+                controller: 'HomeController',
+                controllerAs: 'vm'
+            })
+            .state('admin', {
+                url: '/configuration',
+                templateUrl: '/app/admin.partial.html',
+                controller: 'AdminController',
+                controllerAs: 'vm'
+            });
     }
 
     /**
@@ -47,23 +60,4 @@
         }
     }
 
-    /**
-     * Initialize the routes for the application
-     */
-    // @ngInject
-    function initRoutes($stateProvider) {
-        $stateProvider
-            .state('home', {
-                url: '/',
-                templateUrl: 'app/home.partial.html',
-                controller: 'HomeController',
-                controllerAs: 'vm'
-            })
-            .state('admin', {
-                url: '/configuration',
-                templateUrl: 'app/admin.partial.html',
-                controller: 'AdminController',
-                controllerAs: 'vm'
-            });
-    }
 })();
