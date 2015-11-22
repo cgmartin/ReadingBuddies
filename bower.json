@@ -24,12 +24,12 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.7",
-    "angular-sanitize": "~1.4.7",
-    "angular-ui-router": "~0.2.15",
-    "bootstrap": "~3.3.5",
-    "ngstorage": "~0.3.9",
-    "font-awesome": "fontawesome#~4.4.0"
+    "angular": "1.4.7",
+    "angular-sanitize": "1.4.7",
+    "angular-ui-router": "0.2.15",
+    "bootstrap": "3.3.5",
+    "ngstorage": "0.3.9",
+    "font-awesome": "fontawesome#4.4.0"
   },
   "overrides": {
     "bootstrap": {
@@ -46,6 +46,6 @@
     }
   },
   "devDependencies": {
-    "angular-mocks": "~1.4.7"
+    "angular-mocks": "1.4.7"
   }
 }
