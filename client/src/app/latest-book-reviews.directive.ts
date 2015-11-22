@@ -43,7 +43,7 @@ namespace app {
                 readerModel: '='
             },
             replace: false,
-            templateUrl: 'app/latest-book-reviews.partial.html',
+            templateUrl: '/app/latest-book-reviews.partial.html',
             link: link
         };
     }

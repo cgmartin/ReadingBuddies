@@ -32,13 +32,13 @@ namespace app {
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: 'app/home.partial.html',
+                templateUrl: '/app/home.partial.html',
                 controller: 'HomeController',
                 controllerAs: 'vm'
             })
             .state('admin', {
                 url: '/configuration',
-                templateUrl: 'app/admin.partial.html',
+                templateUrl: '/app/admin.partial.html',
                 controller: 'AdminController',
                 controllerAs: 'vm'
             });

@@ -1,9 +1,11 @@
+/// <reference path="../../../typings/tsd.d.ts" />
+
 describe('Reader Module', function() {
     var element;
     var $scope;
     var readerApiMock;
 
-    beforeEach(module('app', function($provide) {
+    beforeEach(angular.mock.module('app', function($provide) {
         readerApiMock = {
             getReaderReviews: sinon.stub(),
             getReaderInfo: sinon.stub()
@@ -31,11 +33,11 @@ describe('Reader Module', function() {
             $scope.$apply();
 
             var parentDiv = angular.element(element[0].querySelector('.latest-book-reviews'));
-            expect(parentDiv.attr('id')).to.eql('1');
-            expect(parentDiv.find('h3').html()).to.eql(
+            chai.expect(parentDiv.attr('id')).to.eql('1');
+            chai.expect(parentDiv.find('h3').html()).to.eql(
                 '<a ng-href="website" class="ng-binding" href="website">test</a>'
             );
-            expect(angular.element(parentDiv[0].querySelector('.reviews'))
+            chai.expect(angular.element(parentDiv[0].querySelector('.reviews'))
                 .children().length).to.eql(0);
         }));
 
@@ -56,11 +58,11 @@ describe('Reader Module', function() {
             $scope.$apply();
 
             var parentDiv = angular.element(element[0].querySelector('.latest-book-reviews'));
-            expect(parentDiv.attr('id')).to.eql('2');
-            expect(parentDiv.find('h3').html()).to.eql(
+            chai.expect(parentDiv.attr('id')).to.eql('2');
+            chai.expect(parentDiv.find('h3').html()).to.eql(
                 '<a ng-href="website" class="ng-binding" href="website">reviewsTest</a>'
             );
-            expect(angular.element(parentDiv[0].querySelector('.reviews'))
+            chai.expect(angular.element(parentDiv[0].querySelector('.reviews'))
                 .children().length).to.eql(1);
         }));
     });

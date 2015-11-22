@@ -30,7 +30,7 @@ describe('Goodreads API', function() {
     describe('getUserInfo', function() {
         it('should GET user info', function(done) {
             var response = JSON.parse(
-                fs.readFileSync('test/server/fixtures/requests/goodreads-user-info.json', 'utf8').trim()
+                fs.readFileSync('server/test/fixtures/requests/goodreads-user-info.json', 'utf8').trim()
             );
             var rpMock = sinon.stub().returns(Promise.resolve(response));
             mockery.registerMock('request-promise', rpMock);
@@ -62,7 +62,7 @@ describe('Goodreads API', function() {
     describe('getUserReviews', function() {
         it('should GET user reviews', function(done) {
             var response = JSON.parse(
-                fs.readFileSync('test/server/fixtures/requests/goodreads-user-reviews.json', 'utf8').trim()
+                fs.readFileSync('server/test/fixtures/requests/goodreads-user-reviews.json', 'utf8').trim()
             );
             var rpMock = sinon.stub().returns(Promise.resolve(response));
             mockery.registerMock('request-promise', rpMock);

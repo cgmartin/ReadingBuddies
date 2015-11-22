@@ -1,8 +1,10 @@
+/// <reference path="../../../typings/tsd.d.ts" />
+
 describe('Admin Module', function() {
     var controller;
     var $localStorageMock;
 
-    beforeEach(module('app'));
+    beforeEach(angular.mock.module('app'));
     beforeEach(function() {
         $localStorageMock = { readers: [] };
     });
@@ -15,14 +17,14 @@ describe('Admin Module', function() {
     describe('AdminController', function() {
         it('should add new reader', function() {
             controller.addReader();
-            expect(controller.storage.readers).to.eql([{id: null}]);
+            chai.expect(controller.storage.readers).to.eql([{id: null}]);
         });
 
         it('should remove reader', function() {
             $localStorageMock.readers.push({id: 1});
-            expect(controller.storage.readers).to.eql([{id: 1}]);
+            chai.expect(controller.storage.readers).to.eql([{id: 1}]);
             controller.removeReader(0);
-            expect(controller.storage.readers).to.eql([]);
+            chai.expect(controller.storage.readers).to.eql([]);
         });
     });
 });

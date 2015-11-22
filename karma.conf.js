@@ -5,7 +5,7 @@ var mainBowerFiles = require('main-bower-files');
 function getFileList() {
     return mainBowerFiles({filter: /.*js$/i, includeDev: true})
         .concat([
-            'src/client/app/**/*.module.ts',
+            'client/src/app/**/*.module.ts',
             // For the typescript preprocessor, this is not the case:
             //   Each file is included exactly once. If multiple patterns match the same file,
             //   it's included as if it only matched the first pattern.
@@ -13,11 +13,11 @@ function getFileList() {
             // Line below fails due to duplicate processing...
             //'src/client/app/**/*.ts',
             // ...Must exclude module files from glob
-            'src/client/app/**/!(*.module).ts',
-            'src/client/app/**/*.html',
-            'test/client/app/**/*.spec.js'
+            'client/src/app/**/!(*.module).ts',
+            'client/src/app/**/*.html',
+            'client/test/app/**/*.spec.ts'
         ])
-        .concat({ pattern: 'test/client/fixtures/assets/*.png', watched: false, included: false, served: true });
+        .concat({ pattern: 'client/test/fixtures/assets/*.png', watched: false, included: false, served: true });
 }
 
 // Karma configuration
@@ -45,7 +45,7 @@ module.exports = function (config) {
         files: getFileList(),
 
         proxies: {
-            '/fake.png': '/base/test/client/fixtures/assets/fake.png'
+            '/fake.png': '/base/client/test/fixtures/assets/fake.png'
         },
 
         // list of files to exclude
@@ -54,12 +54,12 @@ module.exports = function (config) {
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
-            'src/client/app/**/*.html': ['ng-html2js'],
-            'src/client/app/**/*.ts': ['typescript']
+            'client/src/app/**/*.html': ['ng-html2js'],
+            'client/**/*.ts': ['typescript']
         },
 
         ngHtml2JsPreprocessor: {
-            stripPrefix: 'src/client/',
+            stripPrefix: 'client/src',
             moduleName:  'app'
         },
 
@@ -77,7 +77,7 @@ module.exports = function (config) {
             // extra typing definitions to pass to the compiler (globs allowed)
             typings: [
                 'typings/tsd.d.ts',
-                'src/client/tsd.d.ts'
+                'client/src/tsd.d.ts'
             ],
             // transforming the filenames
             transformPath: function(path) {

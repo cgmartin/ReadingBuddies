@@ -35,11 +35,11 @@ var isVerbose = args.verbose;    // Enable extra verbose logging
 var isProduction = args.prod;    // Run extra steps (minification) with production flag --prod
 
 var paths = {
-    clientSrc:   'src/client',
+    clientSrc:   'client/src',
     clientBuild: 'build/client',
-    clientTests: 'test/client',
-    serverSrc:   'src/server',
-    serverTests: 'test/server',
+    clientTests: 'client/test',
+    serverSrc:   'server/src',
+    serverTests: 'server/test',
     tmp: '.tmp'
 };
 var jsLoadOrder = [
@@ -49,12 +49,13 @@ var jsLoadOrder = [
 ];
 var jsLintPaths = [
     //path.join(paths.clientSrc, '/app/**/*.js'), // Converted to TypeScript
-    path.join(paths.clientTests, '/**/*.js'),
+    //path.join(paths.clientTests, '/**/*.js'),
     path.join(paths.serverSrc, '/app/**/*.js'),
     path.join(paths.serverTests, '/**/*.js')
 ];
 var tsLintPaths = [
-    path.join(paths.clientSrc, '/**/*.ts')
+    path.join(paths.clientSrc, '/**/*.ts'),
+    path.join(paths.clientTests, '/**/*.ts')
 ];
 
 //////////////////////////////////////////////////////////
@@ -84,7 +85,7 @@ gulp.task('partials', false, function() {
         .pipe($.remember('partials'))
         .pipe($.angularTemplatecache('templateCacheHtml.js', {
             module: 'app',
-            root: 'app',
+            root: '/app',
             standalone: false
         }))
         .pipe(gulp.dest(path.join(paths.clientBuild, '/js/')));
@@ -103,7 +104,7 @@ gulp.task('vendor-scripts', false, function() {
 });
 
 gulp.task('app-scripts', false, function() {
-    var tsProject = $.typescript.createProject('./src/client/tsconfig.json');
+    var tsProject = $.typescript.createProject('client/tsconfig.json');
 
     var stream = gulp
         .src(path.join(paths.clientSrc, '/app/**/*.ts'))

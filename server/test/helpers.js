@@ -2,8 +2,8 @@
 
 var path = require('path');
 
-var SERVER_SRC_PATH = exports.SERVER_SRC_PATH = './src/server';
-var SERVER_TEST_PATH = exports.SERVER_TEST_PATH = './test/server';
+var SERVER_SRC_PATH = exports.SERVER_SRC_PATH = './server/src';
+var SERVER_TEST_PATH = exports.SERVER_TEST_PATH = './server/test';
 
 // Global utilities
 global.mockery = require('mockery');

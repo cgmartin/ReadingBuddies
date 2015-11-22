@@ -1,8 +1,10 @@
+/// <reference path="../../../typings/tsd.d.ts" />
+
 describe('Reader Module', function() {
     var service;
     var httpBackend;
 
-    beforeEach(module('app'));
+    beforeEach(angular.mock.module('app'));
 
     describe('readerApi Service', function() {
         beforeEach(inject(function($httpBackend, readerApi) {
@@ -24,7 +26,7 @@ describe('Reader Module', function() {
             });
 
             httpBackend.flush();
-            expect(result).to.eql({reviews: true});
+            chai.expect(result).to.eql({reviews: true});
         });
 
         it('should get reader info', function() {
@@ -36,7 +38,7 @@ describe('Reader Module', function() {
             });
 
             httpBackend.flush();
-            expect(result).to.eql({readerInfo: true});
+            chai.expect(result).to.eql({readerInfo: true});
         });
     });
 });
