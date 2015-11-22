@@ -1,18 +1,22 @@
 /// <reference path="../../../typings/tsd.d.ts" />
+/// <reference path="../../typings/ngstorage.d.ts" />
 
-(function () {
+namespace app {
     'use strict';
-
-    angular
-        .module('app')
-        .controller('HomeController', HomeController);
 
     /**
      * Home view controller
      */
-    // @ngInject
-    function HomeController($localStorage) {
-        var vm = this;
-        vm.storage = $localStorage;
+    class HomeController {
+        public storage: ngStorage.IStorageService;
+
+        // @ngInject
+        constructor($localStorage: ngStorage.IStorageService) {
+            this.storage = $localStorage;
+        }
     }
-})();
+
+    angular
+        .module('app')
+        .controller('HomeController', HomeController);
+}
