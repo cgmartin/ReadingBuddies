@@ -50,12 +50,13 @@ var jsLoadOrder = [
 var jsLintPaths = [
     // Converted to TS
     //path.join(paths.clientSrc, '/app/**/*.js'),
-    path.join(paths.clientTests, '/**/*.js'),
+    //path.join(paths.clientTests, '/**/*.js'),
     path.join(paths.serverSrc, '/app/**/*.js'),
     path.join(paths.serverTests, '/**/*.js')
 ];
 var tsLintPaths = [
-    path.join(paths.clientSrc, '/**/*.ts')
+    path.join(paths.clientSrc, '/**/*.ts'),
+    path.join(paths.clientTests, '/**/*.ts')
 ];
 
 //////////////////////////////////////////////////////////

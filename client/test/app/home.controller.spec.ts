@@ -1,18 +1,21 @@
 /// <reference path="../../../typings/tsd.d.ts" />
-describe('Home Module', function () {
-    var controller;
-    var $localStorageMock;
+
+describe('Home Module', () => {
+    let controller: any;
+    let $localStorageMock: any;
+
     beforeEach(angular.mock.module('app'));
-    beforeEach(function () {
+    beforeEach(() => {
         $localStorageMock = { readers: [] };
     });
-    beforeEach(inject(function ($controller) {
+    beforeEach(inject(($controller: angular.IControllerService) => {
         controller = $controller('HomeController', {
             '$localStorage': $localStorageMock
         });
     }));
-    describe('HomeController', function () {
-        it('should have storage reference', function () {
+
+    describe('HomeController', () => {
+        it('should have storage reference', () => {
             chai.expect(controller.storage).to.eql($localStorageMock);
         });
     });
