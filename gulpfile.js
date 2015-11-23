@@ -48,10 +48,13 @@ var jsLoadOrder = [
     '**/*.js'
 ];
 var jsLintPaths = [
-    path.join(paths.clientSrc, '/app/**/*.js'),
+    //path.join(paths.clientSrc, '/app/**/*.js'),
     path.join(paths.clientTests, '/**/*.js'),
     path.join(paths.serverSrc, '/app/**/*.js'),
     path.join(paths.serverTests, '/**/*.js')
+];
+var tsLintPaths = [
+    path.join(paths.clientSrc, '/app/**/*.ts')
 ];
 
 //////////////////////////////////////////////////////////
@@ -100,11 +103,14 @@ gulp.task('vendor-scripts', false, function() {
 });
 
 gulp.task('app-scripts', false, function() {
+    var tsProject = $.typescript.createProject('client/tsconfig.json');
+
     var stream = gulp
-        .src(path.join(paths.clientSrc, '/app/**/*.js'))
-        .pipe($.cached('app-scripts'))
+        .src(path.join('client/**/*.ts'))
+        .pipe($.typescript(tsProject))
+        //.pipe($.cached('app-scripts'))
         .pipe($.ngAnnotate({add: true, single_quotes: true}))
-        .pipe($.remember('app-scripts'))
+        //.pipe($.remember('app-scripts'))
         .pipe($.order(jsLoadOrder)) // *Important*: Must come after $.remember to preserve order
         .pipe(verbosePrintFiles('app-scripts'));
 
@@ -124,7 +130,7 @@ function scriptProcessing(stream, bundleFile) {
 /**
  * JS Linting
  */
-gulp.task('lint', false, function() {
+gulp.task('jslint', false, function() {
     return gulp
         .src(jsLintPaths)
         .pipe(verbosePrintFiles('lint'))
@@ -133,13 +139,22 @@ gulp.task('lint', false, function() {
         .pipe($.jshint.reporter('fail'));
 });
 
+gulp.task('tslint', false, function() {
+    return gulp
+        .src(tsLintPaths)
+        .pipe(verbosePrintFiles('lint'))
+        .pipe($.tslint())
+        .pipe($.tslint.report('verbose'));
+});
+
+
 /**
  * JS Code complexity
  */
 gulp.task('complexity', false, function() {
     return gulp
         .src([
-            path.join(paths.clientSrc, '/app/**/*.js'),
+            //path.join(paths.clientSrc, '/app/**/*.js'),
             path.join(paths.serverSrc, '/app/**/*.js')
         ])
         .pipe(verbosePrintFiles('complexity'))
@@ -153,7 +168,7 @@ gulp.task('complexity', false, function() {
 });
 
 gulp.task('analyze', 'Static JavaScript code analysis (linting, complexity)', function(next) {
-    $.runSequence('lint', 'complexity', next);
+    $.runSequence('jslint', 'tslint', 'complexity', next);
 });
 
 /**
@@ -319,9 +334,11 @@ function startBrowserSync(serverPort, next) {
  * Watch for file changes and rebuild
  */
 gulp.task('watch', false, ['build'], function() {
-    gulp.watch(jsLintPaths.concat('.jshintrc'), ['lint'])
+    gulp.watch(jsLintPaths.concat('.jshintrc'), ['jslint'])
         .on('change', onWatchChange);
-    gulp.watch(path.join(paths.clientSrc, '/app/**/*.js'), ['app-scripts'])
+    gulp.watch(tsLintPaths.concat('client/tslint.json'), ['tslint'])
+        .on('change', onWatchChange);
+    gulp.watch('client/**/*.ts', ['app-scripts'])
         .on('change', onWatchChange);
     gulp.watch(path.join(paths.clientSrc, '/styles/**/*.css'), ['app-styles'])
         .on('change', onWatchChange);

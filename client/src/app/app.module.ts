@@ -1,9 +1,11 @@
-var app;
-(function (app) {
+namespace app {
     'use strict';
+
     angular.module('app', [
         'ngSanitize',
         'ui.router',
         'ngStorage',
     ]);
-})(app || (app = {}));
+
+}
+

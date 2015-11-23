@@ -1,33 +1,39 @@
-var app;
-(function (app) {
+namespace app {
     'use strict';
+
     /**
      * The latest book reviews for a readers
      * <latest-book-reviews reader-model="reader"/>
      */
-    function latestBookReviewsDirective(readerApi) {
+    function latestBookReviewsDirective(readerApi: IReaderApi): angular.IDirective {
+
         // @ngInject
-        var link = function (scope) {
+        let link: Function = (scope: any) => {
+
             scope.$watch('readerModel', fetchReaderData);
-            function fetchReaderData() {
+
+            function fetchReaderData(): void {
                 scope.reader = null;
                 scope.reviewData = null;
+
                 if (scope.readerModel) {
                     readerApi
                         .getReaderReviews(scope.readerModel.id)
-                        .then(function (data) {
-                        console.log(data);
-                        scope.reviewData = data;
-                    });
+                        .then((data: any) => {
+                            console.log(data);
+                            scope.reviewData = data;
+                        });
+
                     readerApi
                         .getReaderInfo(scope.readerModel.id)
-                        .then(function (data) {
-                        console.log(data);
-                        scope.reader = data;
-                    });
+                        .then((data: any) => {
+                            console.log(data);
+                            scope.reader = data;
+                        });
                 }
             }
         };
+
         return {
             restrict: 'EA',
             scope: {
@@ -38,7 +44,9 @@ var app;
             link: link
         };
     }
+
     angular
         .module('app')
         .directive('latestBookReviews', latestBookReviewsDirective);
-})(app || (app = {}));
+
+}

@@ -1,16 +1,17 @@
-(function () {
+var app;
+(function (app) {
     'use strict';
-
-    angular
-        .module('app')
-        .controller('HomeController', HomeController);
-
     /**
      * Home view controller
      */
-    // @ngInject
-    function HomeController($localStorage) {
-        var vm = this;
-        vm.storage = $localStorage;
-    }
-})();
+    var HomeController = (function () {
+        function HomeController(storage) {
+            this.storage = storage;
+        }
+        HomeController.$inject = ['$localStorage'];
+        return HomeController;
+    })();
+    angular
+        .module('app')
+        .controller('HomeController', HomeController);
+})(app || (app = {}));

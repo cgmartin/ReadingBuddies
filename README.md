@@ -1,4 +1,4 @@
-# Reading Buddies
+# Reading Buddies (TypeScript Version)
 
 [![Build Status](https://travis-ci.org/cgmartin/ReadingBuddies.svg?branch=master)](https://travis-ci.org/cgmartin/ReadingBuddies)
 [![Dependency Status](https://david-dm.org/cgmartin/ReadingBuddies.svg)](https://david-dm.org/cgmartin/ReadingBuddies)
@@ -37,6 +37,7 @@ Install and run the dependencies:
 
 * Install [Node.js](https://nodejs.org/en/download/)
 * Install and run [Redis](http://redis.io/topics/quickstart), or use the Redis [Docker](http://docs.docker.com/) image: `docker-compose up -d redis`
+* Install other CLI tools: `npm install -g bower gulp tsc tsd`
 
 Configure the application:
 
@@ -46,7 +47,7 @@ Configure the application:
 
 Build and run the application:
 
-1. Run `npm install && bower install` to install the app dependencies
+1. Run `npm install && bower install && tsd install` to install the app dependencies
 1. Run `npm run build` to build the app JS/CSS bundles and static files folder (`./build/`)
 1. Run `npm start` to start the http server
 1. Open browser: <http://localhost:8000>
@@ -60,7 +61,7 @@ To build a Docker image of the app:
 ## Contributing
 
 1. Fork and clone it
-1. Install dependencies: `npm install`
+1. Install dependencies: `npm install && bower install && tsd install`
 1. Create a feature branch: `git checkout -b new-feature`
 1. Commit changes: `git commit -am 'Added a feature'`
 1. Run static code analysis and unit tests: `npm test`
