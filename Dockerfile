@@ -16,4 +16,4 @@ COPY build /app/build
 # 1. `npm run build`
 # 2. `docker-compose build`
 # 3. `docker-compose up -d`
-# 4. open browser: "http://{Docker Machine IP}:8000"
+# 4. `open http://$(docker-machine ip):8000`

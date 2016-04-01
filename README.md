@@ -70,12 +70,10 @@ To build a Docker image of the app:
 
 Build/refresh upon file changes:
 
-1. Run `npm run develop` for development mode
+1. Run `npm run dev` for development mode
 1. Open browser: <http://localhost:3000>
 
 
 ## License ##
 
 [MIT License](http://cgm.mit-license.org/)  Copyright © 2014 Christopher Martin
-
-

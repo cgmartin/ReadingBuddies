@@ -17,7 +17,10 @@
     "gulp"
   ],
   "author": "Christopher Martin <cgmartin@gmail.com>",
-  "contributors": [],
+  "contributors": [{
+    "name": "John Papa",
+    "email": "john@johnpapa.net"
+  }],
   "private": true,
   "license": "MIT",
   "dependencies": {
