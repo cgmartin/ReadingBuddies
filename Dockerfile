@@ -10,7 +10,7 @@ WORKDIR /app
 COPY package.json /app/package.json
 RUN npm install
 
-COPY src/server /app/src/server
+COPY server /app/server
 COPY build /app/build
 
 # 1. `npm run build`
